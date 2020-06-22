@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrandLux", "GrandLux\GrandLux.csproj", "{451880DE-58C8-479C-8ABB-6FD2F1B8EB4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrandLux", "GrandLux\GrandLux.csproj", "{451880DE-58C8-479C-8ABB-6FD2F1B8EB4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrandLux_Desktop", "GrandLux_Desktop\GrandLux_Desktop.csproj", "{8C67B103-8701-4A1D-8DF5-297219AA38AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{451880DE-58C8-479C-8ABB-6FD2F1B8EB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{451880DE-58C8-479C-8ABB-6FD2F1B8EB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{451880DE-58C8-479C-8ABB-6FD2F1B8EB4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C67B103-8701-4A1D-8DF5-297219AA38AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C67B103-8701-4A1D-8DF5-297219AA38AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C67B103-8701-4A1D-8DF5-297219AA38AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C67B103-8701-4A1D-8DF5-297219AA38AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
