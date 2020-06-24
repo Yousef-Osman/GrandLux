@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrandLux", "GrandLux\GrandLux.csproj", "{451880DE-58C8-479C-8ABB-6FD2F1B8EB4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrandLux_Desktop", "GrandLux_Desktop\GrandLux_Desktop.csproj", "{8C67B103-8701-4A1D-8DF5-297219AA38AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrandLux_Desktop", "GrandLux_Desktop\GrandLux_Desktop.csproj", "{413F5025-64A0-4E9F-825D-37703AF83217}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{451880DE-58C8-479C-8ABB-6FD2F1B8EB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{451880DE-58C8-479C-8ABB-6FD2F1B8EB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{451880DE-58C8-479C-8ABB-6FD2F1B8EB4B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8C67B103-8701-4A1D-8DF5-297219AA38AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C67B103-8701-4A1D-8DF5-297219AA38AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C67B103-8701-4A1D-8DF5-297219AA38AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C67B103-8701-4A1D-8DF5-297219AA38AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{413F5025-64A0-4E9F-825D-37703AF83217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413F5025-64A0-4E9F-825D-37703AF83217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413F5025-64A0-4E9F-825D-37703AF83217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413F5025-64A0-4E9F-825D-37703AF83217}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
