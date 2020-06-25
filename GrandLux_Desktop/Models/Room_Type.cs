@@ -7,24 +7,25 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GrandLux_Desktop
+namespace GrandLux_Desktop.Models
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class Reservation_Status
+    public partial class Room_Type
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Reservation_Status()
+        public Room_Type()
         {
-            this.Reservations = new HashSet<Reservation>();
+            this.Rooms = new HashSet<Room>();
         }
     
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; }
+        public int No_of_Beds { get; set; }
+        public int Max_Capacity { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Reservation> Reservations { get; set; }
+        public virtual ICollection<Room> Rooms { get; set; }
     }
 }

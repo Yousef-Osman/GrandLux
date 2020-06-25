@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GrandLux_Desktop
+namespace GrandLux_Desktop.Models
 {
     using System;
     using System.Data.Entity;
@@ -25,6 +25,7 @@ namespace GrandLux_Desktop
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<Employee> Employees { get; set; }
         public virtual DbSet<Guest> Guests { get; set; }
         public virtual DbSet<Reservation_Status> Reservation_Status { get; set; }
         public virtual DbSet<Reservation> Reservations { get; set; }
@@ -32,6 +33,5 @@ namespace GrandLux_Desktop
         public virtual DbSet<Room_Type> Room_Type { get; set; }
         public virtual DbSet<Room> Rooms { get; set; }
         public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
-        public virtual DbSet<Employee> Employees { get; set; }
     }
 }

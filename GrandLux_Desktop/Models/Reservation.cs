@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GrandLux_Desktop
+namespace GrandLux_Desktop.Models
 {
     using System;
     using System.Collections.Generic;
