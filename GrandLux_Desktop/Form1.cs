@@ -38,56 +38,30 @@ namespace GrandLux_Desktop
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            DisplayHome();
+        }
+
+        private void HideAllPanels()
+        {
+            HomePanel.Visible = false;
+            GuestsPanel.Visible = false;
+            RoomsPanel.Visible = false;
+            MiscPanel.Visible = false;
+        }
+
+        private void LogoPanel_Click(object sender, EventArgs e)
+        {
+            DisplayHome();
+        }
+
+        private void DisplayHome()
+        {
+            TitleLabel.Text = "Home";
             HideAllPanels();
-            //HomePanel.Visible = true;
+            HomePanel.Visible = true;
         }
 
-        private void RoomTypeDGV_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void RoomTypeAddBtn_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void RoomTypeDeleteBtn_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void RoomStatusDGV_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void RoomStatusAddBtn_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void RoomStatusDeleteBtn_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ClearTapsInputs_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ReservationStatusDGV_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void ReservationStatusAddBtn_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ReservationStatusDeleteBtn_Click(object sender, EventArgs e)
+        private void RoomsAddBtn_Click(object sender, EventArgs e)
         {
 
         }
