@@ -149,6 +149,8 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
@@ -160,8 +162,6 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.SideBarPanel.SuspendLayout();
             this.MiscTabPanel.SuspendLayout();
             this.RoomTypeTab.SuspendLayout();
@@ -335,6 +335,7 @@
             this.ReservationsBtn.Text = "Reservations  ";
             this.ReservationsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.ReservationsBtn.UseVisualStyleBackColor = true;
+            this.ReservationsBtn.Click += new System.EventHandler(this.ReservationsBtn_Click);
             // 
             // EmployeesBtn
             // 
@@ -1008,6 +1009,7 @@
             this.RoomsDGV.RowTemplate.Height = 26;
             this.RoomsDGV.Size = new System.Drawing.Size(1143, 411);
             this.RoomsDGV.TabIndex = 7;
+            this.RoomsDGV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.RoomsDGV_CellClick);
             // 
             // panel3
             // 
@@ -1108,6 +1110,7 @@
             this.RoomsDeleteBtn.TabIndex = 16;
             this.RoomsDeleteBtn.Text = "Delete";
             this.RoomsDeleteBtn.UseVisualStyleBackColor = false;
+            this.RoomsDeleteBtn.Click += new System.EventHandler(this.RoomsDeleteBtn_Click);
             // 
             // RoomsSearchBtn
             // 
@@ -1124,6 +1127,7 @@
             this.RoomsSearchBtn.TabIndex = 17;
             this.RoomsSearchBtn.Text = "Search";
             this.RoomsSearchBtn.UseVisualStyleBackColor = false;
+            this.RoomsSearchBtn.Click += new System.EventHandler(this.RoomsSearchBtn_Click);
             // 
             // label1
             // 
@@ -1641,6 +1645,22 @@
             this.panel5.Size = new System.Drawing.Size(1193, 197);
             this.panel5.TabIndex = 13;
             // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker2.Location = new System.Drawing.Point(624, 78);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(279, 32);
+            this.dateTimePicker2.TabIndex = 20;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Location = new System.Drawing.Point(153, 81);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(279, 32);
+            this.dateTimePicker1.TabIndex = 20;
+            // 
             // comboBox2
             // 
             this.comboBox2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1766,31 +1786,15 @@
             this.label11.TabIndex = 2;
             this.label11.Text = "Room No.";
             // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(153, 81);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(279, 32);
-            this.dateTimePicker1.TabIndex = 20;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker2.Location = new System.Drawing.Point(624, 78);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(279, 32);
-            this.dateTimePicker2.TabIndex = 20;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1493, 837);
-            this.Controls.Add(this.ReservationsPanel);
             this.Controls.Add(this.TitleLabel);
             this.Controls.Add(this.LogoPanel);
             this.Controls.Add(this.SideBarPanel);
+            this.Controls.Add(this.ReservationsPanel);
             this.Controls.Add(this.RoomsPanel);
             this.Controls.Add(this.GuestsPanel);
             this.Controls.Add(this.MiscPanel);

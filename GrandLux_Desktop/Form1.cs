@@ -45,6 +45,7 @@ namespace GrandLux_Desktop
         {
             HomePanel.Visible = false;
             GuestsPanel.Visible = false;
+            ReservationsPanel.Visible = false;
             RoomsPanel.Visible = false;
             MiscPanel.Visible = false;
         }
@@ -61,7 +62,15 @@ namespace GrandLux_Desktop
             HomePanel.Visible = true;
         }
 
-        private void RoomsAddBtn_Click(object sender, EventArgs e)
+        private void ReservationsBtn_Click(object sender, EventArgs e)
+        {
+            TitleLabel.Text = "Reservations";
+            HideAllPanels();
+            ReservationsPanel.Visible = true;
+            ShowReservationtData();
+        }
+
+        private void ShowReservationtData()
         {
 
         }
