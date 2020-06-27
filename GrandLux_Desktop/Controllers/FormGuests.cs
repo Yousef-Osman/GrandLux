@@ -1,17 +1,9 @@
 ﻿using MetroFramework;
 using System;
 using GrandLux_Desktop.Models;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Data.Entity;
-using System.Data.Entity.Migrations;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Reflection;
 
 namespace GrandLux_Desktop
 {
@@ -45,9 +37,7 @@ namespace GrandLux_Desktop
                 GuestsDGV.DataSource = db.Guests.Select(g => new { g.Id, g.First_Name, g.Last_Name, g.Address, g.E_Mail, g.Phone }).ToList();
             }
 
-            GuestFNameTB.Text = GuestLNameTB.Text = GuestAddressTB.Text = "";
-            GuestEmailTB.Text = GuestPhoneTB.Text = "";
-            guest.Id = 0;
+                ClearGuestInputs();
         }
 
         private void GuestsDGV_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -58,13 +48,15 @@ namespace GrandLux_Desktop
                 using (GrandLuxEntities db = new GrandLuxEntities())
                 {
                     guest = db.Guests.Where(g => g.Id == guest.Id).FirstOrDefault();
-
-                    GuestFNameTB.Text = guest.First_Name;
-                    GuestLNameTB.Text = guest.Last_Name;
-                    GuestAddressTB.Text = guest.Address;
-                    GuestEmailTB.Text = guest.E_Mail;
-                    GuestPhoneTB.Text = guest.Phone;
                 }
+
+                GuestFNameTB.Text = bookingFNameTB.Text = guest.First_Name;
+                GuestLNameTB.Text = bookingLNameTB.Text = guest.Last_Name;
+                GuestAddressTB.Text = guest.Address;
+                GuestEmailTB.Text = guest.E_Mail;
+                GuestPhoneTB.Text = guest.Phone;
+
+                BookingConfirmBtn.Enabled = true;
             }
         }
 
@@ -91,14 +83,20 @@ namespace GrandLux_Desktop
                                                         g.Phone 
                                                     }).ToList();
                 }
-                GuestFNameTB.Text = GuestLNameTB.Text = GuestAddressTB.Text = "";
-                GuestEmailTB.Text = GuestPhoneTB.Text = "";
-                guest.Id = 0;
+
+                ClearGuestInputs();
             }
             else
             {
                 MetroMessageBox.Show(this, "Please enter full name, e-mail or Phone number to start searching", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void ClearGuestInputs()
+        {
+            GuestFNameTB.Text = GuestLNameTB.Text = GuestAddressTB.Text = "";
+            GuestEmailTB.Text = GuestPhoneTB.Text = "";
+            guest.Id = 0;
         }
     }
 }

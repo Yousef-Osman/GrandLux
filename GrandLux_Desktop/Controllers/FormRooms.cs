@@ -23,7 +23,9 @@ namespace GrandLux_Desktop
         {
             using (GrandLuxEntities db = new GrandLuxEntities())
             {
-                RoomsDGV.DataSource = db.Rooms.Select(r => new { r.Room_Number,
+                RoomsDGV.DataSource = db.Rooms.Select(r => new { 
+                                                                 r.Id,
+                                                                 r.Room_Number,
                                                                  r.Floor_Number, 
                                                                  Room_Type = r.Room_Type.Name, 
                                                                  Room_Status = r.Room_Status.Name }).ToList();
@@ -31,22 +33,23 @@ namespace GrandLux_Desktop
                 RoomTypeCB.DataSource = db.Room_Type.ToList();
                 RoomTypeCB.DisplayMember = "Name";
                 RoomTypeCB.ValueMember = "Id";
+
                 RoomStatusCB.DataSource = db.Room_Status.ToList();
                 RoomStatusCB.DisplayMember = "Name";
                 RoomStatusCB.ValueMember = "Id";
             }
 
-            resetRoomInputs();
+            ResetRoomInputs();
         }
 
         private void RoomsDGV_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (RoomsDGV.CurrentRow.Index != -1)
             {
-                room.Room_Number = Convert.ToInt32(RoomsDGV.CurrentRow.Cells["Room_Number"].Value);
+                room.Id = Convert.ToInt32(RoomsDGV.CurrentRow.Cells["Id"].Value);
                 using (GrandLuxEntities db = new GrandLuxEntities())
                 {
-                    room = db.Rooms.Where(r => r.Room_Number == room.Room_Number).FirstOrDefault();
+                    room = db.Rooms.Where(r => r.Id == room.Id).FirstOrDefault();
 
                     RoomNoNUD.Value = room.Room_Number;
                     FloorNoNUD.Value = room.Floor_Number;
@@ -68,12 +71,12 @@ namespace GrandLux_Desktop
             room.Type_Id = Convert.ToInt32(RoomTypeCB.SelectedValue);
             room.Status_Id = Convert.ToInt32(RoomStatusCB.SelectedValue);
 
-            AddEntity<Room>(room, inputsValidation, room.Room_Number);
+            AddEntity<Room>(room, inputsValidation, room.Id);
         }
 
         private void RoomsDeleteBtn_Click(object sender, EventArgs e)
         {
-            DeleteEntity<Room>(room, room.Room_Number);
+            DeleteEntity<Room>(room, room.Id);
         }
 
         private void RoomsSearchBtn_Click(object sender, EventArgs e)
@@ -102,7 +105,7 @@ namespace GrandLux_Desktop
                                      }).ToList();
                 }
 
-                resetRoomInputs();
+                ResetRoomInputs();
             }
             else
             {
@@ -110,13 +113,13 @@ namespace GrandLux_Desktop
             }
         }
 
-        private void resetRoomInputs()
+        private void ResetRoomInputs()
         {
             RoomTypeCB.SelectedItem = RoomStatusCB.SelectedItem = null;
             RoomTypeCB.SelectedText = "      ------- Select a room Type -------    ";
             RoomStatusCB.SelectedText = "      ------- Select a room status -------    ";
             RoomNoNUD.Value = FloorNoNUD.Value = 0;
-            room.Room_Number = 0;
+            room.Id = 0;
         }
     }
 }

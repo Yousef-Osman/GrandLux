@@ -43,13 +43,13 @@
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Guest_Id" Type="int" Nullable="false" />
-          <Property Name="Room_Number" Type="int" Nullable="false" />
-          <Property Name="Reservation_Date" Type="datetime" Nullable="false" />
+          <Property Name="Room_Id" Type="int" Nullable="false" />
+          <Property Name="Reservation_Date" Type="datetime" />
           <Property Name="Check_In" Type="datetime" Nullable="false" />
           <Property Name="Check_Out" Type="datetime" />
           <Property Name="Adults" Type="int" Nullable="false" />
           <Property Name="Children" Type="int" />
-          <Property Name="Reservation_Status" Type="int" Nullable="false" />
+          <Property Name="Reservation_Status" Type="int" />
         </EntityType>
         <EntityType Name="Room_Status">
           <Key>
@@ -70,12 +70,15 @@
         </EntityType>
         <EntityType Name="Rooms">
           <Key>
-            <PropertyRef Name="Room_Number" />
+            <PropertyRef Name="Id" />
           </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Room_Number" Type="int" Nullable="false" />
           <Property Name="Floor_Number" Type="int" Nullable="false" />
           <Property Name="Type_Id" Type="int" Nullable="false" />
           <Property Name="Status_Id" Type="int" Nullable="false" />
+          <Property Name="Check_In" Type="datetime" />
+          <Property Name="Check_Out" Type="datetime" />
         </EntityType>
         <EntityType Name="sysdiagrams">
           <Key>
@@ -100,7 +103,7 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Reservations_Reservation_Status">
-          <End Role="Reservation_Status" Type="Self.Reservation_Status" Multiplicity="1" />
+          <End Role="Reservation_Status" Type="Self.Reservation_Status" Multiplicity="0..1" />
           <End Role="Reservations" Type="Self.Reservations" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Reservation_Status">
@@ -116,10 +119,10 @@
           <End Role="Reservations" Type="Self.Reservations" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Rooms">
-              <PropertyRef Name="Room_Number" />
+              <PropertyRef Name="Id" />
             </Principal>
             <Dependent Role="Reservations">
-              <PropertyRef Name="Room_Number" />
+              <PropertyRef Name="Room_Id" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -222,13 +225,13 @@
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Guest_Id" Type="Int32" Nullable="false" />
-          <Property Name="Room_Number" Type="Int32" Nullable="false" />
-          <Property Name="Reservation_Date" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Room_Id" Type="Int32" Nullable="false" />
+          <Property Name="Reservation_Date" Type="DateTime" Precision="3" />
           <Property Name="Check_In" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="Check_Out" Type="DateTime" Precision="3" />
           <Property Name="Adults" Type="Int32" Nullable="false" />
           <Property Name="Children" Type="Int32" />
-          <Property Name="Reservation_Status" Type="Int32" Nullable="false" />
+          <Property Name="Reservation_Status" Type="Int32" />
           <NavigationProperty Name="Guest" Relationship="Self.FK_Reservations_Guests" FromRole="Reservations" ToRole="Guests" />
           <NavigationProperty Name="Reservation_Status1" Relationship="Self.FK_Reservations_Reservation_Status" FromRole="Reservations" ToRole="Reservation_Status" />
           <NavigationProperty Name="Room" Relationship="Self.FK_Reservations_Rooms" FromRole="Reservations" ToRole="Rooms" />
@@ -254,12 +257,15 @@
         </EntityType>
         <EntityType Name="Room">
           <Key>
-            <PropertyRef Name="Room_Number" />
+            <PropertyRef Name="Id" />
           </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Room_Number" Type="Int32" Nullable="false" />
           <Property Name="Floor_Number" Type="Int32" Nullable="false" />
           <Property Name="Type_Id" Type="Int32" Nullable="false" />
           <Property Name="Status_Id" Type="Int32" Nullable="false" />
+          <Property Name="Check_In" Type="DateTime" Precision="3" />
+          <Property Name="Check_Out" Type="DateTime" Precision="3" />
           <NavigationProperty Name="Reservations" Relationship="Self.FK_Reservations_Rooms" FromRole="Rooms" ToRole="Reservations" />
           <NavigationProperty Name="Room_Status" Relationship="Self.FK_Rooms_Room_Status" FromRole="Rooms" ToRole="Room_Status" />
           <NavigationProperty Name="Room_Type" Relationship="Self.FK_Rooms_Room_Type" FromRole="Rooms" ToRole="Room_Type" />
@@ -287,7 +293,7 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Reservations_Reservation_Status">
-          <End Role="Reservation_Status" Type="Self.Reservation_Status" Multiplicity="1" />
+          <End Role="Reservation_Status" Type="Self.Reservation_Status" Multiplicity="0..1" />
           <End Role="Reservations" Type="Self.Reservation" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Reservation_Status">
@@ -303,10 +309,10 @@
           <End Role="Reservations" Type="Self.Reservation" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Rooms">
-              <PropertyRef Name="Room_Number" />
+              <PropertyRef Name="Id" />
             </Principal>
             <Dependent Role="Reservations">
-              <PropertyRef Name="Room_Number" />
+              <PropertyRef Name="Room_Id" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -410,7 +416,7 @@
               <MappingFragment StoreEntitySet="Reservations">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="Guest_Id" ColumnName="Guest_Id" />
-                <ScalarProperty Name="Room_Number" ColumnName="Room_Number" />
+                <ScalarProperty Name="Room_Id" ColumnName="Room_Id" />
                 <ScalarProperty Name="Reservation_Date" ColumnName="Reservation_Date" />
                 <ScalarProperty Name="Check_In" ColumnName="Check_In" />
                 <ScalarProperty Name="Check_Out" ColumnName="Check_Out" />
@@ -442,10 +448,13 @@
           <EntitySetMapping Name="Rooms">
             <EntityTypeMapping TypeName="GrandLuxModel.Room">
               <MappingFragment StoreEntitySet="Rooms">
+                <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="Room_Number" ColumnName="Room_Number" />
                 <ScalarProperty Name="Floor_Number" ColumnName="Floor_Number" />
                 <ScalarProperty Name="Type_Id" ColumnName="Type_Id" />
                 <ScalarProperty Name="Status_Id" ColumnName="Status_Id" />
+                <ScalarProperty Name="Check_In" ColumnName="Check_In" />
+                <ScalarProperty Name="Check_Out" ColumnName="Check_Out" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

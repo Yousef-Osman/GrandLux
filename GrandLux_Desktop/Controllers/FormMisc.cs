@@ -1,17 +1,8 @@
-﻿using MetroFramework;
-using System;
+﻿using System;
 using GrandLux_Desktop.Models;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Data.Entity;
-using System.Data.Entity.Migrations;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.ComponentModel.DataAnnotations;
 
 namespace GrandLux_Desktop
 {
@@ -25,7 +16,17 @@ namespace GrandLux_Desktop
             ShowMiscData();
         }
 
-        public void ShowMiscData()
+        public void ShowRoom_TypeData()
+        {
+            ShowMiscData();
+        }
+
+        public void ShowRoom_StatusData()
+        {
+            ShowMiscData();
+        }
+
+        private void ShowMiscData()
         {
             using (GrandLuxEntities db = new GrandLuxEntities())
             {
@@ -108,24 +109,6 @@ namespace GrandLux_Desktop
         private void RoomStatusDeleteBtn_Click(object sender, EventArgs e)
         {
             DeleteEntity<Room_Status>(roomStatus, roomStatus.Id);
-        }
-        #endregion
-
-
-        #region Reservation Status
-        private void ReservationStatusAddBtn_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ReservationStatusDeleteBtn_Click(object sender, EventArgs e)
-        {
-            DeleteEntity<Reservation_Status>(reservationStatus, reservationStatus.Id);
-        }
-
-        private void ReservationStatusDGV_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
         #endregion
     }

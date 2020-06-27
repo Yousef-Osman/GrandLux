@@ -29,36 +29,41 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle49 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle51 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle52 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle55 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle56 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle57 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle58 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle59 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle60 = new System.Windows.Forms.DataGridViewCellStyle();
             this.SideBarPanel = new MetroFramework.Controls.MetroPanel();
             this.InvoiceBtn = new System.Windows.Forms.Button();
             this.MiscBtn = new System.Windows.Forms.Button();
@@ -91,23 +96,12 @@
             this.RoomStatusNameTB = new System.Windows.Forms.TextBox();
             this.LabelRoomStatusDescription = new System.Windows.Forms.Label();
             this.LabelRoomStatusName = new System.Windows.Forms.Label();
-            this.ReservationStatusTab = new MetroFramework.Controls.MetroTabPage();
-            this.ReservationStatusDisplayPanel = new System.Windows.Forms.Panel();
-            this.ReservationStatusDGV = new System.Windows.Forms.DataGridView();
-            this.ReservationStatusInputsPanel = new System.Windows.Forms.Panel();
-            this.ReservationStatusAddBtn = new System.Windows.Forms.Button();
-            this.ReservationStatusDeleteBtn = new System.Windows.Forms.Button();
-            this.ReservationStatusDescriptionTB = new System.Windows.Forms.TextBox();
-            this.ReservationStatusNameTB = new System.Windows.Forms.TextBox();
-            this.LabelReservationStatusDescription = new System.Windows.Forms.Label();
-            this.LabelReservationStatusName = new System.Windows.Forms.Label();
             this.MiscPanel = new System.Windows.Forms.Panel();
             this.RoomsPanel = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.RoomsDGV = new System.Windows.Forms.DataGridView();
             this.panel3 = new System.Windows.Forms.Panel();
             this.RoomStatusCB = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.RoomTypeCB = new System.Windows.Forms.ComboBox();
             this.RoomNoNUD = new System.Windows.Forms.NumericUpDown();
             this.FloorNoNUD = new System.Windows.Forms.NumericUpDown();
@@ -115,7 +109,6 @@
             this.RoomsDeleteBtn = new System.Windows.Forms.Button();
             this.RoomsSearchBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -136,6 +129,12 @@
             this.GuestsDisplayPanel = new System.Windows.Forms.Panel();
             this.GuestsDGV = new System.Windows.Forms.DataGridView();
             this.GuestsPanel = new System.Windows.Forms.Panel();
+            this.GuestBookingPanal = new System.Windows.Forms.Panel();
+            this.bookingLNameTB = new System.Windows.Forms.TextBox();
+            this.bookingFNameTB = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.BookingConfirmBtn = new System.Windows.Forms.Button();
             this.HomePanel = new System.Windows.Forms.Panel();
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
             this.label10 = new System.Windows.Forms.Label();
@@ -146,22 +145,62 @@
             this.InterfaceInvoiceBtn = new System.Windows.Forms.Button();
             this.InterfaceEmployeesBtn = new System.Windows.Forms.Button();
             this.ReservationsPanel = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.ReservationsTabControl = new MetroFramework.Controls.MetroTabControl();
+            this.CheckTabPanel = new MetroFramework.Controls.MetroTabPage();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.RoomNoDisplayOnlyTB = new System.Windows.Forms.TextBox();
+            this.BookBtn = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
+            this.CheckDisplayPanel = new System.Windows.Forms.Panel();
+            this.CheckDGV = new System.Windows.Forms.DataGridView();
+            this.CheckInputsPanel = new System.Windows.Forms.Panel();
+            this.CheckOutDTP = new System.Windows.Forms.DateTimePicker();
+            this.CheckInDTP = new System.Windows.Forms.DateTimePicker();
+            this.AdultsNUD = new System.Windows.Forms.NumericUpDown();
+            this.ChildernNUD = new System.Windows.Forms.NumericUpDown();
+            this.ReservationCheckBtn = new System.Windows.Forms.Button();
+            this.CheckChildrenLabel = new System.Windows.Forms.Label();
+            this.CheckCheckOutLabel = new System.Windows.Forms.Label();
+            this.CheckAdultsLabel = new System.Windows.Forms.Label();
+            this.CheckCheckInLabel = new System.Windows.Forms.Label();
+            this.ReservationsTabPanel = new MetroFramework.Controls.MetroTabPage();
+            this.ReservationsDisplayPanel = new System.Windows.Forms.Panel();
+            this.ReservationsDGV = new System.Windows.Forms.DataGridView();
+            this.ReservationsInputPanel = new System.Windows.Forms.Panel();
+            this.ReservationDeleteBtn = new System.Windows.Forms.Button();
+            this.ReservationSearchBtn = new System.Windows.Forms.Button();
+            this.ReservationLNameTB = new System.Windows.Forms.TextBox();
+            this.ReservationRoomNoTB = new System.Windows.Forms.TextBox();
+            this.ReservationFNameTB = new System.Windows.Forms.TextBox();
+            this.ReservationCheckOutDTP = new System.Windows.Forms.DateTimePicker();
+            this.ReservationCheckInDTP = new System.Windows.Forms.DateTimePicker();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.InvoicesPanel = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.EmployeesPanel = new System.Windows.Forms.Panel();
+            this.EmployeeDisplay = new System.Windows.Forms.Panel();
+            this.EmployeesDGV = new System.Windows.Forms.DataGridView();
+            this.EmployeeInputsPanel = new System.Windows.Forms.Panel();
+            this.EmployeesAddBtn = new System.Windows.Forms.Button();
+            this.EmployeesDeleteBtn = new System.Windows.Forms.Button();
+            this.EmployeesSearchBtn = new System.Windows.Forms.Button();
+            this.EmployeeJobTB = new System.Windows.Forms.TextBox();
+            this.EmployeePhoneTB = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.EmployeeAddressTB = new System.Windows.Forms.TextBox();
+            this.EmployeeLNameTB = new System.Windows.Forms.TextBox();
+            this.EmployeeFNameTB = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.EmployeeEmailTB = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.SideBarPanel.SuspendLayout();
             this.MiscTabPanel.SuspendLayout();
             this.RoomTypeTab.SuspendLayout();
@@ -174,10 +213,6 @@
             this.RoomStatusDisplayPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.RoomStatusDGV)).BeginInit();
             this.RoomStatusInputsPanel.SuspendLayout();
-            this.ReservationStatusTab.SuspendLayout();
-            this.ReservationStatusDisplayPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ReservationStatusDGV)).BeginInit();
-            this.ReservationStatusInputsPanel.SuspendLayout();
             this.MiscPanel.SuspendLayout();
             this.RoomsPanel.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -189,13 +224,26 @@
             this.GuestsDisplayPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GuestsDGV)).BeginInit();
             this.GuestsPanel.SuspendLayout();
+            this.GuestBookingPanal.SuspendLayout();
             this.HomePanel.SuspendLayout();
             this.ReservationsPanel.SuspendLayout();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            this.ReservationsTabControl.SuspendLayout();
+            this.CheckTabPanel.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.CheckDisplayPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.CheckDGV)).BeginInit();
+            this.CheckInputsPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.AdultsNUD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChildernNUD)).BeginInit();
+            this.ReservationsTabPanel.SuspendLayout();
+            this.ReservationsDisplayPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ReservationsDGV)).BeginInit();
+            this.ReservationsInputPanel.SuspendLayout();
+            this.InvoicesPanel.SuspendLayout();
+            this.EmployeesPanel.SuspendLayout();
+            this.EmployeeDisplay.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.EmployeesDGV)).BeginInit();
+            this.EmployeeInputsPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // SideBarPanel
@@ -241,9 +289,10 @@
             this.InvoiceBtn.Name = "InvoiceBtn";
             this.InvoiceBtn.Size = new System.Drawing.Size(245, 70);
             this.InvoiceBtn.TabIndex = 8;
-            this.InvoiceBtn.Text = "Invoice             ";
+            this.InvoiceBtn.Text = "Invoices           ";
             this.InvoiceBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.InvoiceBtn.UseVisualStyleBackColor = true;
+            this.InvoiceBtn.Click += new System.EventHandler(this.InvoiceBtn_Click);
             // 
             // MiscBtn
             // 
@@ -263,7 +312,7 @@
             this.MiscBtn.Name = "MiscBtn";
             this.MiscBtn.Size = new System.Drawing.Size(245, 70);
             this.MiscBtn.TabIndex = 4;
-            this.MiscBtn.Text = "Misc                  ";
+            this.MiscBtn.Text = "Misc                 ";
             this.MiscBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.MiscBtn.UseVisualStyleBackColor = true;
             this.MiscBtn.Click += new System.EventHandler(this.MiscBtn_Click);
@@ -286,7 +335,7 @@
             this.GuestsBtn.Name = "GuestsBtn";
             this.GuestsBtn.Size = new System.Drawing.Size(245, 70);
             this.GuestsBtn.TabIndex = 5;
-            this.GuestsBtn.Text = "Guests             ";
+            this.GuestsBtn.Text = "Guests            ";
             this.GuestsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.GuestsBtn.UseVisualStyleBackColor = true;
             this.GuestsBtn.Click += new System.EventHandler(this.GuestsBtn_Click);
@@ -309,7 +358,7 @@
             this.RoomsBtn.Name = "RoomsBtn";
             this.RoomsBtn.Size = new System.Drawing.Size(245, 70);
             this.RoomsBtn.TabIndex = 6;
-            this.RoomsBtn.Text = "Rooms             ";
+            this.RoomsBtn.Text = "Rooms            ";
             this.RoomsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.RoomsBtn.UseVisualStyleBackColor = true;
             this.RoomsBtn.Click += new System.EventHandler(this.RoomsBtn_Click);
@@ -332,7 +381,7 @@
             this.ReservationsBtn.Name = "ReservationsBtn";
             this.ReservationsBtn.Size = new System.Drawing.Size(245, 70);
             this.ReservationsBtn.TabIndex = 7;
-            this.ReservationsBtn.Text = "Reservations  ";
+            this.ReservationsBtn.Text = "Reservations ";
             this.ReservationsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.ReservationsBtn.UseVisualStyleBackColor = true;
             this.ReservationsBtn.Click += new System.EventHandler(this.ReservationsBtn_Click);
@@ -355,9 +404,10 @@
             this.EmployeesBtn.Name = "EmployeesBtn";
             this.EmployeesBtn.Size = new System.Drawing.Size(245, 70);
             this.EmployeesBtn.TabIndex = 3;
-            this.EmployeesBtn.Text = "Employees      ";
+            this.EmployeesBtn.Text = "Employees     ";
             this.EmployeesBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.EmployeesBtn.UseVisualStyleBackColor = true;
+            this.EmployeesBtn.Click += new System.EventHandler(this.EmployeesBtn_Click);
             // 
             // LogoPanel
             // 
@@ -393,7 +443,6 @@
             // 
             this.MiscTabPanel.Controls.Add(this.RoomTypeTab);
             this.MiscTabPanel.Controls.Add(this.RoomStatusTab);
-            this.MiscTabPanel.Controls.Add(this.ReservationStatusTab);
             this.MiscTabPanel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MiscTabPanel.FontSize = MetroFramework.MetroTabControlSize.Tall;
             this.MiscTabPanel.FontWeight = MetroFramework.MetroTabControlWeight.Regular;
@@ -443,47 +492,47 @@
             // 
             // RoomTypeDGV
             // 
-            dataGridViewCellStyle31.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.RoomTypeDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle31;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.RoomTypeDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.RoomTypeDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.RoomTypeDGV.BackgroundColor = System.Drawing.Color.White;
             this.RoomTypeDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.RoomTypeDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
-            dataGridViewCellStyle32.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle32.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.RoomTypeDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle32;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.RoomTypeDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.RoomTypeDGV.ColumnHeadersHeight = 40;
             this.RoomTypeDGV.Cursor = System.Windows.Forms.Cursors.Hand;
-            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle33.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle33.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle33.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle33.SelectionBackColor = System.Drawing.Color.PaleTurquoise;
-            dataGridViewCellStyle33.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.RoomTypeDGV.DefaultCellStyle = dataGridViewCellStyle33;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.PaleTurquoise;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.RoomTypeDGV.DefaultCellStyle = dataGridViewCellStyle3;
             this.RoomTypeDGV.EnableHeadersVisualStyles = false;
             this.RoomTypeDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
             this.RoomTypeDGV.Location = new System.Drawing.Point(17, 22);
             this.RoomTypeDGV.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.RoomTypeDGV.Name = "RoomTypeDGV";
-            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle34.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle34.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle34.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle34.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle34.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle34.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.RoomTypeDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle34;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.RoomTypeDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.RoomTypeDGV.RowHeadersWidth = 51;
-            dataGridViewCellStyle35.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.RoomTypeDGV.RowsDefaultCellStyle = dataGridViewCellStyle35;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.RoomTypeDGV.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.RoomTypeDGV.RowTemplate.Height = 26;
             this.RoomTypeDGV.Size = new System.Drawing.Size(1143, 407);
             this.RoomTypeDGV.TabIndex = 7;
@@ -632,47 +681,47 @@
             // 
             // RoomStatusDGV
             // 
-            dataGridViewCellStyle36.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.RoomStatusDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle36;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.RoomStatusDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
             this.RoomStatusDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.RoomStatusDGV.BackgroundColor = System.Drawing.Color.White;
             this.RoomStatusDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.RoomStatusDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
-            dataGridViewCellStyle37.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle37.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle37.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle37.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle37.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.RoomStatusDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle37;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.RoomStatusDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.RoomStatusDGV.ColumnHeadersHeight = 40;
             this.RoomStatusDGV.Cursor = System.Windows.Forms.Cursors.Hand;
-            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle38.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle38.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle38.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.Color.PaleTurquoise;
-            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.RoomStatusDGV.DefaultCellStyle = dataGridViewCellStyle38;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.PaleTurquoise;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.RoomStatusDGV.DefaultCellStyle = dataGridViewCellStyle8;
             this.RoomStatusDGV.EnableHeadersVisualStyles = false;
             this.RoomStatusDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
             this.RoomStatusDGV.Location = new System.Drawing.Point(17, 22);
             this.RoomStatusDGV.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.RoomStatusDGV.Name = "RoomStatusDGV";
-            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle39.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle39.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle39.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.RoomStatusDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle39;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.RoomStatusDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.RoomStatusDGV.RowHeadersWidth = 51;
-            dataGridViewCellStyle40.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.RoomStatusDGV.RowsDefaultCellStyle = dataGridViewCellStyle40;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.RoomStatusDGV.RowsDefaultCellStyle = dataGridViewCellStyle10;
             this.RoomStatusDGV.RowTemplate.Height = 26;
             this.RoomStatusDGV.Size = new System.Drawing.Size(1143, 407);
             this.RoomStatusDGV.TabIndex = 7;
@@ -765,173 +814,6 @@
             this.LabelRoomStatusName.TabIndex = 2;
             this.LabelRoomStatusName.Text = "Status Name";
             // 
-            // ReservationStatusTab
-            // 
-            this.ReservationStatusTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.ReservationStatusTab.Controls.Add(this.ReservationStatusDisplayPanel);
-            this.ReservationStatusTab.Controls.Add(this.ReservationStatusInputsPanel);
-            this.ReservationStatusTab.HorizontalScrollbarBarColor = true;
-            this.ReservationStatusTab.HorizontalScrollbarHighlightOnWheel = false;
-            this.ReservationStatusTab.HorizontalScrollbarSize = 12;
-            this.ReservationStatusTab.Location = new System.Drawing.Point(4, 44);
-            this.ReservationStatusTab.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ReservationStatusTab.Name = "ReservationStatusTab";
-            this.ReservationStatusTab.Size = new System.Drawing.Size(1185, 673);
-            this.ReservationStatusTab.TabIndex = 2;
-            this.ReservationStatusTab.Text = "Reservation Status";
-            this.ReservationStatusTab.UseCustomBackColor = true;
-            this.ReservationStatusTab.UseCustomForeColor = true;
-            this.ReservationStatusTab.UseStyleColors = true;
-            this.ReservationStatusTab.VerticalScrollbarBarColor = true;
-            this.ReservationStatusTab.VerticalScrollbarHighlightOnWheel = false;
-            this.ReservationStatusTab.VerticalScrollbarSize = 12;
-            this.ReservationStatusTab.Click += new System.EventHandler(this.ClearTapsInputs_Click);
-            // 
-            // ReservationStatusDisplayPanel
-            // 
-            this.ReservationStatusDisplayPanel.BackColor = System.Drawing.Color.White;
-            this.ReservationStatusDisplayPanel.Controls.Add(this.ReservationStatusDGV);
-            this.ReservationStatusDisplayPanel.Location = new System.Drawing.Point(3, 213);
-            this.ReservationStatusDisplayPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ReservationStatusDisplayPanel.Name = "ReservationStatusDisplayPanel";
-            this.ReservationStatusDisplayPanel.Size = new System.Drawing.Size(1181, 451);
-            this.ReservationStatusDisplayPanel.TabIndex = 22;
-            // 
-            // ReservationStatusDGV
-            // 
-            dataGridViewCellStyle41.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ReservationStatusDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle41;
-            this.ReservationStatusDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.ReservationStatusDGV.BackgroundColor = System.Drawing.Color.White;
-            this.ReservationStatusDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.ReservationStatusDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
-            dataGridViewCellStyle42.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle42.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle42.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle42.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle42.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ReservationStatusDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle42;
-            this.ReservationStatusDGV.ColumnHeadersHeight = 40;
-            this.ReservationStatusDGV.Cursor = System.Windows.Forms.Cursors.Hand;
-            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle43.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle43.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle43.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle43.SelectionBackColor = System.Drawing.Color.PaleTurquoise;
-            dataGridViewCellStyle43.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle43.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.ReservationStatusDGV.DefaultCellStyle = dataGridViewCellStyle43;
-            this.ReservationStatusDGV.EnableHeadersVisualStyles = false;
-            this.ReservationStatusDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
-            this.ReservationStatusDGV.Location = new System.Drawing.Point(17, 22);
-            this.ReservationStatusDGV.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ReservationStatusDGV.Name = "ReservationStatusDGV";
-            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle44.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle44.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle44.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle44.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle44.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle44.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ReservationStatusDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle44;
-            this.ReservationStatusDGV.RowHeadersWidth = 51;
-            dataGridViewCellStyle45.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle45.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ReservationStatusDGV.RowsDefaultCellStyle = dataGridViewCellStyle45;
-            this.ReservationStatusDGV.RowTemplate.Height = 26;
-            this.ReservationStatusDGV.Size = new System.Drawing.Size(1143, 407);
-            this.ReservationStatusDGV.TabIndex = 7;
-            this.ReservationStatusDGV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ReservationStatusDGV_CellClick);
-            // 
-            // ReservationStatusInputsPanel
-            // 
-            this.ReservationStatusInputsPanel.BackColor = System.Drawing.Color.White;
-            this.ReservationStatusInputsPanel.Controls.Add(this.ReservationStatusAddBtn);
-            this.ReservationStatusInputsPanel.Controls.Add(this.ReservationStatusDeleteBtn);
-            this.ReservationStatusInputsPanel.Controls.Add(this.ReservationStatusDescriptionTB);
-            this.ReservationStatusInputsPanel.Controls.Add(this.ReservationStatusNameTB);
-            this.ReservationStatusInputsPanel.Controls.Add(this.LabelReservationStatusDescription);
-            this.ReservationStatusInputsPanel.Controls.Add(this.LabelReservationStatusName);
-            this.ReservationStatusInputsPanel.Location = new System.Drawing.Point(3, 36);
-            this.ReservationStatusInputsPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ReservationStatusInputsPanel.Name = "ReservationStatusInputsPanel";
-            this.ReservationStatusInputsPanel.Size = new System.Drawing.Size(1177, 140);
-            this.ReservationStatusInputsPanel.TabIndex = 21;
-            // 
-            // ReservationStatusAddBtn
-            // 
-            this.ReservationStatusAddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
-            this.ReservationStatusAddBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ReservationStatusAddBtn.FlatAppearance.BorderSize = 0;
-            this.ReservationStatusAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ReservationStatusAddBtn.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ReservationStatusAddBtn.ForeColor = System.Drawing.Color.White;
-            this.ReservationStatusAddBtn.Location = new System.Drawing.Point(1018, 24);
-            this.ReservationStatusAddBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ReservationStatusAddBtn.Name = "ReservationStatusAddBtn";
-            this.ReservationStatusAddBtn.Size = new System.Drawing.Size(127, 37);
-            this.ReservationStatusAddBtn.TabIndex = 15;
-            this.ReservationStatusAddBtn.Text = "Add / Edit";
-            this.ReservationStatusAddBtn.UseVisualStyleBackColor = false;
-            this.ReservationStatusAddBtn.Click += new System.EventHandler(this.ReservationStatusAddBtn_Click);
-            // 
-            // ReservationStatusDeleteBtn
-            // 
-            this.ReservationStatusDeleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
-            this.ReservationStatusDeleteBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ReservationStatusDeleteBtn.FlatAppearance.BorderSize = 0;
-            this.ReservationStatusDeleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ReservationStatusDeleteBtn.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ReservationStatusDeleteBtn.ForeColor = System.Drawing.Color.White;
-            this.ReservationStatusDeleteBtn.Location = new System.Drawing.Point(1018, 80);
-            this.ReservationStatusDeleteBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ReservationStatusDeleteBtn.Name = "ReservationStatusDeleteBtn";
-            this.ReservationStatusDeleteBtn.Size = new System.Drawing.Size(127, 37);
-            this.ReservationStatusDeleteBtn.TabIndex = 16;
-            this.ReservationStatusDeleteBtn.Text = "Delete";
-            this.ReservationStatusDeleteBtn.UseVisualStyleBackColor = false;
-            this.ReservationStatusDeleteBtn.Click += new System.EventHandler(this.ReservationStatusDeleteBtn_Click);
-            // 
-            // ReservationStatusDescriptionTB
-            // 
-            this.ReservationStatusDescriptionTB.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ReservationStatusDescriptionTB.Location = new System.Drawing.Point(154, 80);
-            this.ReservationStatusDescriptionTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ReservationStatusDescriptionTB.Name = "ReservationStatusDescriptionTB";
-            this.ReservationStatusDescriptionTB.Size = new System.Drawing.Size(750, 32);
-            this.ReservationStatusDescriptionTB.TabIndex = 14;
-            // 
-            // ReservationStatusNameTB
-            // 
-            this.ReservationStatusNameTB.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ReservationStatusNameTB.Location = new System.Drawing.Point(153, 28);
-            this.ReservationStatusNameTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ReservationStatusNameTB.Name = "ReservationStatusNameTB";
-            this.ReservationStatusNameTB.Size = new System.Drawing.Size(279, 32);
-            this.ReservationStatusNameTB.TabIndex = 14;
-            // 
-            // LabelReservationStatusDescription
-            // 
-            this.LabelReservationStatusDescription.AutoSize = true;
-            this.LabelReservationStatusDescription.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelReservationStatusDescription.Location = new System.Drawing.Point(23, 83);
-            this.LabelReservationStatusDescription.Name = "LabelReservationStatusDescription";
-            this.LabelReservationStatusDescription.Size = new System.Drawing.Size(104, 24);
-            this.LabelReservationStatusDescription.TabIndex = 2;
-            this.LabelReservationStatusDescription.Text = "Description";
-            // 
-            // LabelReservationStatusName
-            // 
-            this.LabelReservationStatusName.AutoSize = true;
-            this.LabelReservationStatusName.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelReservationStatusName.Location = new System.Drawing.Point(23, 31);
-            this.LabelReservationStatusName.Name = "LabelReservationStatusName";
-            this.LabelReservationStatusName.Size = new System.Drawing.Size(116, 24);
-            this.LabelReservationStatusName.TabIndex = 2;
-            this.LabelReservationStatusName.Text = "Status Name";
-            // 
             // MiscPanel
             // 
             this.MiscPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
@@ -957,55 +839,55 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Controls.Add(this.RoomsDGV);
-            this.panel2.Location = new System.Drawing.Point(28, 257);
+            this.panel2.Location = new System.Drawing.Point(28, 254);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1193, 459);
+            this.panel2.Size = new System.Drawing.Size(1193, 462);
             this.panel2.TabIndex = 14;
             // 
             // RoomsDGV
             // 
-            dataGridViewCellStyle46.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.RoomsDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle46;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.RoomsDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle11;
             this.RoomsDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.RoomsDGV.BackgroundColor = System.Drawing.Color.White;
             this.RoomsDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.RoomsDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
-            dataGridViewCellStyle47.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle47.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle47.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle47.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle47.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.RoomsDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle47;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.RoomsDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
             this.RoomsDGV.ColumnHeadersHeight = 40;
             this.RoomsDGV.Cursor = System.Windows.Forms.Cursors.Hand;
-            dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle48.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle48.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle48.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle48.SelectionBackColor = System.Drawing.Color.PaleTurquoise;
-            dataGridViewCellStyle48.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle48.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.RoomsDGV.DefaultCellStyle = dataGridViewCellStyle48;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.PaleTurquoise;
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.RoomsDGV.DefaultCellStyle = dataGridViewCellStyle13;
             this.RoomsDGV.EnableHeadersVisualStyles = false;
             this.RoomsDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
             this.RoomsDGV.Location = new System.Drawing.Point(26, 22);
             this.RoomsDGV.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.RoomsDGV.Name = "RoomsDGV";
-            dataGridViewCellStyle49.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle49.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle49.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle49.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle49.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle49.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle49.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.RoomsDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle49;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.RoomsDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.RoomsDGV.RowHeadersWidth = 51;
-            dataGridViewCellStyle50.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.RoomsDGV.RowsDefaultCellStyle = dataGridViewCellStyle50;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.RoomsDGV.RowsDefaultCellStyle = dataGridViewCellStyle15;
             this.RoomsDGV.RowTemplate.Height = 26;
             this.RoomsDGV.Size = new System.Drawing.Size(1143, 411);
             this.RoomsDGV.TabIndex = 7;
@@ -1015,7 +897,6 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.Controls.Add(this.RoomStatusCB);
-            this.panel3.Controls.Add(this.comboBox3);
             this.panel3.Controls.Add(this.RoomTypeCB);
             this.panel3.Controls.Add(this.RoomNoNUD);
             this.panel3.Controls.Add(this.FloorNoNUD);
@@ -1023,39 +904,29 @@
             this.panel3.Controls.Add(this.RoomsDeleteBtn);
             this.panel3.Controls.Add(this.RoomsSearchBtn);
             this.panel3.Controls.Add(this.label1);
-            this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Location = new System.Drawing.Point(28, 27);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1193, 197);
+            this.panel3.Size = new System.Drawing.Size(1193, 193);
             this.panel3.TabIndex = 13;
             // 
             // RoomStatusCB
             // 
             this.RoomStatusCB.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RoomStatusCB.FormattingEnabled = true;
-            this.RoomStatusCB.Location = new System.Drawing.Point(624, 81);
+            this.RoomStatusCB.Location = new System.Drawing.Point(624, 116);
             this.RoomStatusCB.Name = "RoomStatusCB";
             this.RoomStatusCB.Size = new System.Drawing.Size(279, 32);
             this.RoomStatusCB.TabIndex = 19;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(153, 133);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(279, 32);
-            this.comboBox3.TabIndex = 19;
             // 
             // RoomTypeCB
             // 
             this.RoomTypeCB.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RoomTypeCB.FormattingEnabled = true;
-            this.RoomTypeCB.Location = new System.Drawing.Point(153, 81);
+            this.RoomTypeCB.Location = new System.Drawing.Point(153, 116);
             this.RoomTypeCB.Name = "RoomTypeCB";
             this.RoomTypeCB.Size = new System.Drawing.Size(279, 32);
             this.RoomTypeCB.TabIndex = 19;
@@ -1063,7 +934,7 @@
             // RoomNoNUD
             // 
             this.RoomNoNUD.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RoomNoNUD.Location = new System.Drawing.Point(153, 28);
+            this.RoomNoNUD.Location = new System.Drawing.Point(153, 48);
             this.RoomNoNUD.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.RoomNoNUD.Name = "RoomNoNUD";
             this.RoomNoNUD.Size = new System.Drawing.Size(279, 32);
@@ -1072,7 +943,7 @@
             // FloorNoNUD
             // 
             this.FloorNoNUD.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FloorNoNUD.Location = new System.Drawing.Point(624, 28);
+            this.FloorNoNUD.Location = new System.Drawing.Point(624, 48);
             this.FloorNoNUD.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.FloorNoNUD.Name = "FloorNoNUD";
             this.FloorNoNUD.Size = new System.Drawing.Size(279, 32);
@@ -1086,7 +957,7 @@
             this.RoomsAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RoomsAddBtn.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RoomsAddBtn.ForeColor = System.Drawing.Color.White;
-            this.RoomsAddBtn.Location = new System.Drawing.Point(1028, 30);
+            this.RoomsAddBtn.Location = new System.Drawing.Point(1028, 26);
             this.RoomsAddBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.RoomsAddBtn.Name = "RoomsAddBtn";
             this.RoomsAddBtn.Size = new System.Drawing.Size(127, 37);
@@ -1103,7 +974,7 @@
             this.RoomsDeleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RoomsDeleteBtn.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RoomsDeleteBtn.ForeColor = System.Drawing.Color.White;
-            this.RoomsDeleteBtn.Location = new System.Drawing.Point(1028, 81);
+            this.RoomsDeleteBtn.Location = new System.Drawing.Point(1028, 77);
             this.RoomsDeleteBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.RoomsDeleteBtn.Name = "RoomsDeleteBtn";
             this.RoomsDeleteBtn.Size = new System.Drawing.Size(127, 37);
@@ -1120,7 +991,7 @@
             this.RoomsSearchBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RoomsSearchBtn.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RoomsSearchBtn.ForeColor = System.Drawing.Color.White;
-            this.RoomsSearchBtn.Location = new System.Drawing.Point(1028, 133);
+            this.RoomsSearchBtn.Location = new System.Drawing.Point(1028, 129);
             this.RoomsSearchBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.RoomsSearchBtn.Name = "RoomsSearchBtn";
             this.RoomsSearchBtn.Size = new System.Drawing.Size(127, 37);
@@ -1133,27 +1004,17 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(495, 86);
+            this.label1.Location = new System.Drawing.Point(495, 121);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(62, 24);
             this.label1.TabIndex = 2;
             this.label1.Text = "Status";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(23, 139);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 24);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Smooking";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(23, 86);
+            this.label3.Location = new System.Drawing.Point(23, 121);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(49, 24);
             this.label3.TabIndex = 2;
@@ -1163,7 +1024,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(495, 33);
+            this.label4.Location = new System.Drawing.Point(495, 53);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(87, 24);
             this.label4.TabIndex = 2;
@@ -1173,7 +1034,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(23, 33);
+            this.label5.Location = new System.Drawing.Point(23, 53);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(93, 24);
             this.label5.TabIndex = 2;
@@ -1354,52 +1215,52 @@
             this.GuestsDisplayPanel.Location = new System.Drawing.Point(28, 257);
             this.GuestsDisplayPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.GuestsDisplayPanel.Name = "GuestsDisplayPanel";
-            this.GuestsDisplayPanel.Size = new System.Drawing.Size(1193, 459);
+            this.GuestsDisplayPanel.Size = new System.Drawing.Size(1193, 460);
             this.GuestsDisplayPanel.TabIndex = 14;
             // 
             // GuestsDGV
             // 
-            dataGridViewCellStyle51.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.GuestsDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle51;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.GuestsDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
             this.GuestsDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.GuestsDGV.BackgroundColor = System.Drawing.Color.White;
             this.GuestsDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.GuestsDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle52.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
-            dataGridViewCellStyle52.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle52.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle52.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle52.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle52.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.GuestsDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle52;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.GuestsDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
             this.GuestsDGV.ColumnHeadersHeight = 40;
             this.GuestsDGV.Cursor = System.Windows.Forms.Cursors.Hand;
-            dataGridViewCellStyle53.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle53.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle53.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle53.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle53.SelectionBackColor = System.Drawing.Color.PaleTurquoise;
-            dataGridViewCellStyle53.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle53.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.GuestsDGV.DefaultCellStyle = dataGridViewCellStyle53;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle18.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.PaleTurquoise;
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.GuestsDGV.DefaultCellStyle = dataGridViewCellStyle18;
             this.GuestsDGV.EnableHeadersVisualStyles = false;
             this.GuestsDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
             this.GuestsDGV.Location = new System.Drawing.Point(26, 22);
             this.GuestsDGV.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.GuestsDGV.Name = "GuestsDGV";
-            dataGridViewCellStyle54.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle54.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle54.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle54.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle54.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle54.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle54.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.GuestsDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle54;
+            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle19.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle19.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle19.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.GuestsDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle19;
             this.GuestsDGV.RowHeadersWidth = 51;
-            dataGridViewCellStyle55.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle55.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.GuestsDGV.RowsDefaultCellStyle = dataGridViewCellStyle55;
+            dataGridViewCellStyle20.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.GuestsDGV.RowsDefaultCellStyle = dataGridViewCellStyle20;
             this.GuestsDGV.RowTemplate.Height = 26;
             this.GuestsDGV.Size = new System.Drawing.Size(1143, 411);
             this.GuestsDGV.TabIndex = 7;
@@ -1408,6 +1269,7 @@
             // GuestsPanel
             // 
             this.GuestsPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.GuestsPanel.Controls.Add(this.GuestBookingPanal);
             this.GuestsPanel.Controls.Add(this.GuestsDisplayPanel);
             this.GuestsPanel.Controls.Add(this.GuestsInputPanel);
             this.GuestsPanel.Location = new System.Drawing.Point(245, 92);
@@ -1415,6 +1277,79 @@
             this.GuestsPanel.Name = "GuestsPanel";
             this.GuestsPanel.Size = new System.Drawing.Size(1248, 745);
             this.GuestsPanel.TabIndex = 18;
+            // 
+            // GuestBookingPanal
+            // 
+            this.GuestBookingPanal.BackColor = System.Drawing.Color.White;
+            this.GuestBookingPanal.Controls.Add(this.bookingLNameTB);
+            this.GuestBookingPanal.Controls.Add(this.bookingFNameTB);
+            this.GuestBookingPanal.Controls.Add(this.label7);
+            this.GuestBookingPanal.Controls.Add(this.label8);
+            this.GuestBookingPanal.Controls.Add(this.BookingConfirmBtn);
+            this.GuestBookingPanal.Location = new System.Drawing.Point(28, 636);
+            this.GuestBookingPanal.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.GuestBookingPanal.Name = "GuestBookingPanal";
+            this.GuestBookingPanal.Size = new System.Drawing.Size(1193, 81);
+            this.GuestBookingPanal.TabIndex = 18;
+            this.GuestBookingPanal.Visible = false;
+            // 
+            // bookingLNameTB
+            // 
+            this.bookingLNameTB.Enabled = false;
+            this.bookingLNameTB.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bookingLNameTB.Location = new System.Drawing.Point(628, 24);
+            this.bookingLNameTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.bookingLNameTB.Name = "bookingLNameTB";
+            this.bookingLNameTB.Size = new System.Drawing.Size(279, 32);
+            this.bookingLNameTB.TabIndex = 24;
+            // 
+            // bookingFNameTB
+            // 
+            this.bookingFNameTB.Enabled = false;
+            this.bookingFNameTB.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bookingFNameTB.Location = new System.Drawing.Point(157, 24);
+            this.bookingFNameTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.bookingFNameTB.Name = "bookingFNameTB";
+            this.bookingFNameTB.Size = new System.Drawing.Size(279, 32);
+            this.bookingFNameTB.TabIndex = 25;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(499, 29);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(97, 24);
+            this.label7.TabIndex = 22;
+            this.label7.Text = "Last Name";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(27, 29);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(100, 24);
+            this.label8.TabIndex = 23;
+            this.label8.Text = "First Name";
+            // 
+            // BookingConfirmBtn
+            // 
+            this.BookingConfirmBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            this.BookingConfirmBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BookingConfirmBtn.Enabled = false;
+            this.BookingConfirmBtn.FlatAppearance.BorderSize = 0;
+            this.BookingConfirmBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BookingConfirmBtn.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BookingConfirmBtn.ForeColor = System.Drawing.Color.White;
+            this.BookingConfirmBtn.Location = new System.Drawing.Point(1029, 22);
+            this.BookingConfirmBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.BookingConfirmBtn.Name = "BookingConfirmBtn";
+            this.BookingConfirmBtn.Size = new System.Drawing.Size(127, 37);
+            this.BookingConfirmBtn.TabIndex = 17;
+            this.BookingConfirmBtn.Text = "Confirm";
+            this.BookingConfirmBtn.UseVisualStyleBackColor = false;
+            this.BookingConfirmBtn.Click += new System.EventHandler(this.BookingConfirmBtn_Click);
             // 
             // HomePanel
             // 
@@ -1508,6 +1443,7 @@
             this.InterfaceReservationsBtn.Text = "Reservations";
             this.InterfaceReservationsBtn.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.InterfaceReservationsBtn.UseVisualStyleBackColor = false;
+            this.InterfaceReservationsBtn.Click += new System.EventHandler(this.ReservationsBtn_Click);
             // 
             // InterfaceGuestsBtn
             // 
@@ -1539,6 +1475,7 @@
             this.InterfaceInvoiceBtn.Text = "Invoice";
             this.InterfaceInvoiceBtn.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.InterfaceInvoiceBtn.UseVisualStyleBackColor = false;
+            this.InterfaceInvoiceBtn.Click += new System.EventHandler(this.InvoiceBtn_Click);
             // 
             // InterfaceEmployeesBtn
             // 
@@ -1554,237 +1491,793 @@
             this.InterfaceEmployeesBtn.Text = "Employees";
             this.InterfaceEmployeesBtn.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.InterfaceEmployeesBtn.UseVisualStyleBackColor = false;
+            this.InterfaceEmployeesBtn.Click += new System.EventHandler(this.EmployeesBtn_Click);
             // 
             // ReservationsPanel
             // 
             this.ReservationsPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.ReservationsPanel.Controls.Add(this.panel4);
-            this.ReservationsPanel.Controls.Add(this.panel5);
+            this.ReservationsPanel.Controls.Add(this.ReservationsTabControl);
             this.ReservationsPanel.Location = new System.Drawing.Point(245, 92);
             this.ReservationsPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ReservationsPanel.Name = "ReservationsPanel";
             this.ReservationsPanel.Size = new System.Drawing.Size(1248, 745);
-            this.ReservationsPanel.TabIndex = 22;
+            this.ReservationsPanel.TabIndex = 23;
             // 
-            // panel4
+            // ReservationsTabControl
             // 
-            this.panel4.BackColor = System.Drawing.Color.White;
-            this.panel4.Controls.Add(this.dataGridView1);
-            this.panel4.Location = new System.Drawing.Point(28, 257);
-            this.panel4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1193, 459);
-            this.panel4.TabIndex = 14;
+            this.ReservationsTabControl.Controls.Add(this.CheckTabPanel);
+            this.ReservationsTabControl.Controls.Add(this.ReservationsTabPanel);
+            this.ReservationsTabControl.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ReservationsTabControl.FontSize = MetroFramework.MetroTabControlSize.Tall;
+            this.ReservationsTabControl.FontWeight = MetroFramework.MetroTabControlWeight.Regular;
+            this.ReservationsTabControl.Location = new System.Drawing.Point(20, 4);
+            this.ReservationsTabControl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ReservationsTabControl.Name = "ReservationsTabControl";
+            this.ReservationsTabControl.SelectedIndex = 1;
+            this.ReservationsTabControl.Size = new System.Drawing.Size(1210, 721);
+            this.ReservationsTabControl.Style = MetroFramework.MetroColorStyle.Teal;
+            this.ReservationsTabControl.TabIndex = 9;
+            this.ReservationsTabControl.UseCustomBackColor = true;
+            this.ReservationsTabControl.UseCustomForeColor = true;
+            this.ReservationsTabControl.UseSelectable = true;
             // 
-            // dataGridView1
+            // CheckTabPanel
             // 
-            dataGridViewCellStyle56.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle56;
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle57.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
-            dataGridViewCellStyle57.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle57.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle57.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle57.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle57.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle57;
-            this.dataGridView1.ColumnHeadersHeight = 40;
-            this.dataGridView1.Cursor = System.Windows.Forms.Cursors.Hand;
-            dataGridViewCellStyle58.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle58.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle58.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle58.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle58.SelectionBackColor = System.Drawing.Color.PaleTurquoise;
-            dataGridViewCellStyle58.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle58.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle58;
-            this.dataGridView1.EnableHeadersVisualStyles = false;
-            this.dataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
-            this.dataGridView1.Location = new System.Drawing.Point(26, 22);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.dataGridView1.Name = "dataGridView1";
-            dataGridViewCellStyle59.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle59.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle59.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle59.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle59.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle59.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle59.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle59;
-            this.dataGridView1.RowHeadersWidth = 51;
-            dataGridViewCellStyle60.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle60;
-            this.dataGridView1.RowTemplate.Height = 26;
-            this.dataGridView1.Size = new System.Drawing.Size(1143, 411);
-            this.dataGridView1.TabIndex = 7;
+            this.CheckTabPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.CheckTabPanel.Controls.Add(this.panel1);
+            this.CheckTabPanel.Controls.Add(this.CheckDisplayPanel);
+            this.CheckTabPanel.Controls.Add(this.CheckInputsPanel);
+            this.CheckTabPanel.HorizontalScrollbarBarColor = true;
+            this.CheckTabPanel.HorizontalScrollbarHighlightOnWheel = false;
+            this.CheckTabPanel.HorizontalScrollbarSize = 12;
+            this.CheckTabPanel.Location = new System.Drawing.Point(4, 44);
+            this.CheckTabPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CheckTabPanel.Name = "CheckTabPanel";
+            this.CheckTabPanel.Size = new System.Drawing.Size(1202, 673);
+            this.CheckTabPanel.TabIndex = 0;
+            this.CheckTabPanel.Text = "Check";
+            this.CheckTabPanel.UseCustomBackColor = true;
+            this.CheckTabPanel.UseCustomForeColor = true;
+            this.CheckTabPanel.UseStyleColors = true;
+            this.CheckTabPanel.UseVisualStyleBackColor = true;
+            this.CheckTabPanel.VerticalScrollbarBarColor = true;
+            this.CheckTabPanel.VerticalScrollbarHighlightOnWheel = false;
+            this.CheckTabPanel.VerticalScrollbarSize = 12;
             // 
-            // panel5
+            // panel1
             // 
-            this.panel5.BackColor = System.Drawing.Color.White;
-            this.panel5.Controls.Add(this.dateTimePicker2);
-            this.panel5.Controls.Add(this.dateTimePicker1);
-            this.panel5.Controls.Add(this.comboBox2);
-            this.panel5.Controls.Add(this.numericUpDown1);
-            this.panel5.Controls.Add(this.numericUpDown2);
-            this.panel5.Controls.Add(this.button1);
-            this.panel5.Controls.Add(this.button2);
-            this.panel5.Controls.Add(this.button3);
-            this.panel5.Controls.Add(this.label6);
-            this.panel5.Controls.Add(this.label7);
-            this.panel5.Controls.Add(this.label8);
-            this.panel5.Controls.Add(this.label9);
-            this.panel5.Controls.Add(this.label11);
-            this.panel5.Location = new System.Drawing.Point(28, 27);
-            this.panel5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1193, 197);
-            this.panel5.TabIndex = 13;
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.RoomNoDisplayOnlyTB);
+            this.panel1.Controls.Add(this.BookBtn);
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Location = new System.Drawing.Point(1, 585);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1198, 81);
+            this.panel1.TabIndex = 17;
             // 
-            // dateTimePicker2
+            // RoomNoDisplayOnlyTB
             // 
-            this.dateTimePicker2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker2.Location = new System.Drawing.Point(624, 78);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(279, 32);
-            this.dateTimePicker2.TabIndex = 20;
+            this.RoomNoDisplayOnlyTB.Enabled = false;
+            this.RoomNoDisplayOnlyTB.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RoomNoDisplayOnlyTB.Location = new System.Drawing.Point(157, 24);
+            this.RoomNoDisplayOnlyTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.RoomNoDisplayOnlyTB.Name = "RoomNoDisplayOnlyTB";
+            this.RoomNoDisplayOnlyTB.Size = new System.Drawing.Size(279, 32);
+            this.RoomNoDisplayOnlyTB.TabIndex = 21;
             // 
-            // dateTimePicker1
+            // BookBtn
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(153, 81);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(279, 32);
-            this.dateTimePicker1.TabIndex = 20;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(153, 133);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(279, 32);
-            this.comboBox2.TabIndex = 19;
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown1.Location = new System.Drawing.Point(153, 28);
-            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(279, 32);
-            this.numericUpDown1.TabIndex = 18;
-            // 
-            // numericUpDown2
-            // 
-            this.numericUpDown2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown2.Location = new System.Drawing.Point(624, 28);
-            this.numericUpDown2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(279, 32);
-            this.numericUpDown2.TabIndex = 18;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(1028, 30);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(127, 37);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "Add / Edit";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(1028, 81);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(127, 37);
-            this.button2.TabIndex = 16;
-            this.button2.Text = "Delete";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(1028, 133);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(127, 37);
-            this.button3.TabIndex = 17;
-            this.button3.Text = "Search";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(495, 86);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(62, 24);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "Status";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(23, 139);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(91, 24);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "Smooking";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(23, 86);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(49, 24);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "Type";
+            this.BookBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            this.BookBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BookBtn.Enabled = false;
+            this.BookBtn.FlatAppearance.BorderSize = 0;
+            this.BookBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BookBtn.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BookBtn.ForeColor = System.Drawing.Color.White;
+            this.BookBtn.Location = new System.Drawing.Point(1029, 22);
+            this.BookBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.BookBtn.Name = "BookBtn";
+            this.BookBtn.Size = new System.Drawing.Size(127, 37);
+            this.BookBtn.TabIndex = 17;
+            this.BookBtn.Text = "Book";
+            this.BookBtn.UseVisualStyleBackColor = false;
+            this.BookBtn.Click += new System.EventHandler(this.BookBtn_Click);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(495, 33);
+            this.label9.Location = new System.Drawing.Point(27, 28);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(87, 24);
+            this.label9.Size = new System.Drawing.Size(93, 24);
             this.label9.TabIndex = 2;
-            this.label9.Text = "Floor No.";
+            this.label9.Text = "Room No.";
+            // 
+            // CheckDisplayPanel
+            // 
+            this.CheckDisplayPanel.BackColor = System.Drawing.Color.White;
+            this.CheckDisplayPanel.Controls.Add(this.CheckDGV);
+            this.CheckDisplayPanel.Location = new System.Drawing.Point(0, 184);
+            this.CheckDisplayPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CheckDisplayPanel.Name = "CheckDisplayPanel";
+            this.CheckDisplayPanel.Size = new System.Drawing.Size(1199, 375);
+            this.CheckDisplayPanel.TabIndex = 16;
+            // 
+            // CheckDGV
+            // 
+            dataGridViewCellStyle21.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.CheckDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle21;
+            this.CheckDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.CheckDGV.BackgroundColor = System.Drawing.Color.White;
+            this.CheckDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CheckDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            dataGridViewCellStyle22.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.CheckDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
+            this.CheckDGV.ColumnHeadersHeight = 40;
+            this.CheckDGV.Cursor = System.Windows.Forms.Cursors.Hand;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle23.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle23.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.PaleTurquoise;
+            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.CheckDGV.DefaultCellStyle = dataGridViewCellStyle23;
+            this.CheckDGV.EnableHeadersVisualStyles = false;
+            this.CheckDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            this.CheckDGV.Location = new System.Drawing.Point(26, 22);
+            this.CheckDGV.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CheckDGV.Name = "CheckDGV";
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle24.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle24.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.CheckDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle24;
+            this.CheckDGV.RowHeadersWidth = 51;
+            dataGridViewCellStyle25.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.CheckDGV.RowsDefaultCellStyle = dataGridViewCellStyle25;
+            this.CheckDGV.RowTemplate.Height = 26;
+            this.CheckDGV.Size = new System.Drawing.Size(1143, 333);
+            this.CheckDGV.TabIndex = 7;
+            this.CheckDGV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.CheckDGV_CellClick);
+            // 
+            // CheckInputsPanel
+            // 
+            this.CheckInputsPanel.BackColor = System.Drawing.Color.White;
+            this.CheckInputsPanel.Controls.Add(this.CheckOutDTP);
+            this.CheckInputsPanel.Controls.Add(this.CheckInDTP);
+            this.CheckInputsPanel.Controls.Add(this.AdultsNUD);
+            this.CheckInputsPanel.Controls.Add(this.ChildernNUD);
+            this.CheckInputsPanel.Controls.Add(this.ReservationCheckBtn);
+            this.CheckInputsPanel.Controls.Add(this.CheckChildrenLabel);
+            this.CheckInputsPanel.Controls.Add(this.CheckCheckOutLabel);
+            this.CheckInputsPanel.Controls.Add(this.CheckAdultsLabel);
+            this.CheckInputsPanel.Controls.Add(this.CheckCheckInLabel);
+            this.CheckInputsPanel.Location = new System.Drawing.Point(0, 13);
+            this.CheckInputsPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CheckInputsPanel.Name = "CheckInputsPanel";
+            this.CheckInputsPanel.Size = new System.Drawing.Size(1198, 145);
+            this.CheckInputsPanel.TabIndex = 15;
+            // 
+            // CheckOutDTP
+            // 
+            this.CheckOutDTP.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CheckOutDTP.Location = new System.Drawing.Point(628, 31);
+            this.CheckOutDTP.Name = "CheckOutDTP";
+            this.CheckOutDTP.Size = new System.Drawing.Size(279, 32);
+            this.CheckOutDTP.TabIndex = 20;
+            // 
+            // CheckInDTP
+            // 
+            this.CheckInDTP.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CheckInDTP.Location = new System.Drawing.Point(157, 31);
+            this.CheckInDTP.Name = "CheckInDTP";
+            this.CheckInDTP.Size = new System.Drawing.Size(279, 32);
+            this.CheckInDTP.TabIndex = 20;
+            // 
+            // AdultsNUD
+            // 
+            this.AdultsNUD.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdultsNUD.Location = new System.Drawing.Point(157, 82);
+            this.AdultsNUD.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.AdultsNUD.Name = "AdultsNUD";
+            this.AdultsNUD.Size = new System.Drawing.Size(279, 32);
+            this.AdultsNUD.TabIndex = 18;
+            // 
+            // ChildernNUD
+            // 
+            this.ChildernNUD.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ChildernNUD.Location = new System.Drawing.Point(628, 82);
+            this.ChildernNUD.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ChildernNUD.Name = "ChildernNUD";
+            this.ChildernNUD.Size = new System.Drawing.Size(279, 32);
+            this.ChildernNUD.TabIndex = 18;
+            // 
+            // ReservationCheckBtn
+            // 
+            this.ReservationCheckBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            this.ReservationCheckBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ReservationCheckBtn.FlatAppearance.BorderSize = 0;
+            this.ReservationCheckBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ReservationCheckBtn.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReservationCheckBtn.ForeColor = System.Drawing.Color.White;
+            this.ReservationCheckBtn.Location = new System.Drawing.Point(1029, 28);
+            this.ReservationCheckBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ReservationCheckBtn.Name = "ReservationCheckBtn";
+            this.ReservationCheckBtn.Size = new System.Drawing.Size(127, 37);
+            this.ReservationCheckBtn.TabIndex = 17;
+            this.ReservationCheckBtn.Text = "Check";
+            this.ReservationCheckBtn.UseVisualStyleBackColor = false;
+            this.ReservationCheckBtn.Click += new System.EventHandler(this.ReservationCheckBtn_Click);
+            // 
+            // CheckChildrenLabel
+            // 
+            this.CheckChildrenLabel.AutoSize = true;
+            this.CheckChildrenLabel.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CheckChildrenLabel.Location = new System.Drawing.Point(499, 86);
+            this.CheckChildrenLabel.Name = "CheckChildrenLabel";
+            this.CheckChildrenLabel.Size = new System.Drawing.Size(81, 24);
+            this.CheckChildrenLabel.TabIndex = 2;
+            this.CheckChildrenLabel.Text = "Children";
+            // 
+            // CheckCheckOutLabel
+            // 
+            this.CheckCheckOutLabel.AutoSize = true;
+            this.CheckCheckOutLabel.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CheckCheckOutLabel.Location = new System.Drawing.Point(499, 32);
+            this.CheckCheckOutLabel.Name = "CheckCheckOutLabel";
+            this.CheckCheckOutLabel.Size = new System.Drawing.Size(93, 24);
+            this.CheckCheckOutLabel.TabIndex = 2;
+            this.CheckCheckOutLabel.Text = "Check out";
+            // 
+            // CheckAdultsLabel
+            // 
+            this.CheckAdultsLabel.AutoSize = true;
+            this.CheckAdultsLabel.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CheckAdultsLabel.Location = new System.Drawing.Point(27, 86);
+            this.CheckAdultsLabel.Name = "CheckAdultsLabel";
+            this.CheckAdultsLabel.Size = new System.Drawing.Size(120, 24);
+            this.CheckAdultsLabel.TabIndex = 2;
+            this.CheckAdultsLabel.Text = "No. of Adults";
+            // 
+            // CheckCheckInLabel
+            // 
+            this.CheckCheckInLabel.AutoSize = true;
+            this.CheckCheckInLabel.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CheckCheckInLabel.Location = new System.Drawing.Point(27, 32);
+            this.CheckCheckInLabel.Name = "CheckCheckInLabel";
+            this.CheckCheckInLabel.Size = new System.Drawing.Size(80, 24);
+            this.CheckCheckInLabel.TabIndex = 2;
+            this.CheckCheckInLabel.Text = "Check in";
+            // 
+            // ReservationsTabPanel
+            // 
+            this.ReservationsTabPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.ReservationsTabPanel.Controls.Add(this.ReservationsDisplayPanel);
+            this.ReservationsTabPanel.Controls.Add(this.ReservationsInputPanel);
+            this.ReservationsTabPanel.HorizontalScrollbarBarColor = true;
+            this.ReservationsTabPanel.HorizontalScrollbarHighlightOnWheel = false;
+            this.ReservationsTabPanel.HorizontalScrollbarSize = 12;
+            this.ReservationsTabPanel.Location = new System.Drawing.Point(4, 44);
+            this.ReservationsTabPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ReservationsTabPanel.Name = "ReservationsTabPanel";
+            this.ReservationsTabPanel.Size = new System.Drawing.Size(1202, 673);
+            this.ReservationsTabPanel.TabIndex = 1;
+            this.ReservationsTabPanel.Text = "Reservations";
+            this.ReservationsTabPanel.UseCustomBackColor = true;
+            this.ReservationsTabPanel.UseCustomForeColor = true;
+            this.ReservationsTabPanel.UseStyleColors = true;
+            this.ReservationsTabPanel.UseVisualStyleBackColor = true;
+            this.ReservationsTabPanel.VerticalScrollbarBarColor = true;
+            this.ReservationsTabPanel.VerticalScrollbarHighlightOnWheel = false;
+            this.ReservationsTabPanel.VerticalScrollbarSize = 12;
+            // 
+            // ReservationsDisplayPanel
+            // 
+            this.ReservationsDisplayPanel.BackColor = System.Drawing.Color.White;
+            this.ReservationsDisplayPanel.Controls.Add(this.ReservationsDGV);
+            this.ReservationsDisplayPanel.Location = new System.Drawing.Point(0, 235);
+            this.ReservationsDisplayPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ReservationsDisplayPanel.Name = "ReservationsDisplayPanel";
+            this.ReservationsDisplayPanel.Size = new System.Drawing.Size(1199, 430);
+            this.ReservationsDisplayPanel.TabIndex = 18;
+            // 
+            // ReservationsDGV
+            // 
+            dataGridViewCellStyle26.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ReservationsDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle26;
+            this.ReservationsDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.ReservationsDGV.BackgroundColor = System.Drawing.Color.White;
+            this.ReservationsDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.ReservationsDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ReservationsDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle27;
+            this.ReservationsDGV.ColumnHeadersHeight = 40;
+            this.ReservationsDGV.Cursor = System.Windows.Forms.Cursors.Hand;
+            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle28.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle28.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle28.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.PaleTurquoise;
+            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.ReservationsDGV.DefaultCellStyle = dataGridViewCellStyle28;
+            this.ReservationsDGV.EnableHeadersVisualStyles = false;
+            this.ReservationsDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            this.ReservationsDGV.Location = new System.Drawing.Point(26, 22);
+            this.ReservationsDGV.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ReservationsDGV.Name = "ReservationsDGV";
+            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle29.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle29.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle29.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ReservationsDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle29;
+            this.ReservationsDGV.RowHeadersWidth = 51;
+            dataGridViewCellStyle30.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ReservationsDGV.RowsDefaultCellStyle = dataGridViewCellStyle30;
+            this.ReservationsDGV.RowTemplate.Height = 26;
+            this.ReservationsDGV.Size = new System.Drawing.Size(1143, 382);
+            this.ReservationsDGV.TabIndex = 7;
+            this.ReservationsDGV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ReservationsDGV_CellClick);
+            // 
+            // ReservationsInputPanel
+            // 
+            this.ReservationsInputPanel.BackColor = System.Drawing.Color.White;
+            this.ReservationsInputPanel.Controls.Add(this.ReservationDeleteBtn);
+            this.ReservationsInputPanel.Controls.Add(this.ReservationSearchBtn);
+            this.ReservationsInputPanel.Controls.Add(this.ReservationLNameTB);
+            this.ReservationsInputPanel.Controls.Add(this.ReservationRoomNoTB);
+            this.ReservationsInputPanel.Controls.Add(this.ReservationFNameTB);
+            this.ReservationsInputPanel.Controls.Add(this.ReservationCheckOutDTP);
+            this.ReservationsInputPanel.Controls.Add(this.ReservationCheckInDTP);
+            this.ReservationsInputPanel.Controls.Add(this.label18);
+            this.ReservationsInputPanel.Controls.Add(this.label23);
+            this.ReservationsInputPanel.Controls.Add(this.label24);
+            this.ReservationsInputPanel.Controls.Add(this.label25);
+            this.ReservationsInputPanel.Controls.Add(this.label26);
+            this.ReservationsInputPanel.Location = new System.Drawing.Point(0, 13);
+            this.ReservationsInputPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ReservationsInputPanel.Name = "ReservationsInputPanel";
+            this.ReservationsInputPanel.Size = new System.Drawing.Size(1198, 195);
+            this.ReservationsInputPanel.TabIndex = 17;
+            // 
+            // ReservationDeleteBtn
+            // 
+            this.ReservationDeleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            this.ReservationDeleteBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ReservationDeleteBtn.FlatAppearance.BorderSize = 0;
+            this.ReservationDeleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ReservationDeleteBtn.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReservationDeleteBtn.ForeColor = System.Drawing.Color.White;
+            this.ReservationDeleteBtn.Location = new System.Drawing.Point(1029, 28);
+            this.ReservationDeleteBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ReservationDeleteBtn.Name = "ReservationDeleteBtn";
+            this.ReservationDeleteBtn.Size = new System.Drawing.Size(127, 37);
+            this.ReservationDeleteBtn.TabIndex = 37;
+            this.ReservationDeleteBtn.Text = "Cancel";
+            this.ReservationDeleteBtn.UseVisualStyleBackColor = false;
+            this.ReservationDeleteBtn.Click += new System.EventHandler(this.ReservationDeleteBtn_Click);
+            // 
+            // ReservationSearchBtn
+            // 
+            this.ReservationSearchBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            this.ReservationSearchBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ReservationSearchBtn.FlatAppearance.BorderSize = 0;
+            this.ReservationSearchBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ReservationSearchBtn.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReservationSearchBtn.ForeColor = System.Drawing.Color.White;
+            this.ReservationSearchBtn.Location = new System.Drawing.Point(1029, 78);
+            this.ReservationSearchBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ReservationSearchBtn.Name = "ReservationSearchBtn";
+            this.ReservationSearchBtn.Size = new System.Drawing.Size(127, 37);
+            this.ReservationSearchBtn.TabIndex = 38;
+            this.ReservationSearchBtn.Text = "Search";
+            this.ReservationSearchBtn.UseVisualStyleBackColor = false;
+            // 
+            // ReservationLNameTB
+            // 
+            this.ReservationLNameTB.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReservationLNameTB.Location = new System.Drawing.Point(632, 28);
+            this.ReservationLNameTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ReservationLNameTB.Name = "ReservationLNameTB";
+            this.ReservationLNameTB.Size = new System.Drawing.Size(279, 32);
+            this.ReservationLNameTB.TabIndex = 33;
+            // 
+            // ReservationRoomNoTB
+            // 
+            this.ReservationRoomNoTB.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReservationRoomNoTB.Location = new System.Drawing.Point(161, 136);
+            this.ReservationRoomNoTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ReservationRoomNoTB.Name = "ReservationRoomNoTB";
+            this.ReservationRoomNoTB.Size = new System.Drawing.Size(279, 32);
+            this.ReservationRoomNoTB.TabIndex = 34;
+            // 
+            // ReservationFNameTB
+            // 
+            this.ReservationFNameTB.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReservationFNameTB.Location = new System.Drawing.Point(161, 28);
+            this.ReservationFNameTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ReservationFNameTB.Name = "ReservationFNameTB";
+            this.ReservationFNameTB.Size = new System.Drawing.Size(279, 32);
+            this.ReservationFNameTB.TabIndex = 35;
+            // 
+            // ReservationCheckOutDTP
+            // 
+            this.ReservationCheckOutDTP.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReservationCheckOutDTP.Location = new System.Drawing.Point(632, 78);
+            this.ReservationCheckOutDTP.Name = "ReservationCheckOutDTP";
+            this.ReservationCheckOutDTP.Size = new System.Drawing.Size(279, 32);
+            this.ReservationCheckOutDTP.TabIndex = 31;
+            // 
+            // ReservationCheckInDTP
+            // 
+            this.ReservationCheckInDTP.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReservationCheckInDTP.Location = new System.Drawing.Point(161, 81);
+            this.ReservationCheckInDTP.Name = "ReservationCheckInDTP";
+            this.ReservationCheckInDTP.Size = new System.Drawing.Size(279, 32);
+            this.ReservationCheckInDTP.TabIndex = 32;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(503, 82);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(93, 24);
+            this.label18.TabIndex = 23;
+            this.label18.Text = "Check out";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(31, 82);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(80, 24);
+            this.label23.TabIndex = 25;
+            this.label23.Text = "Check in";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(503, 32);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(97, 24);
+            this.label24.TabIndex = 26;
+            this.label24.Text = "Last Name";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(31, 139);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(93, 24);
+            this.label25.TabIndex = 27;
+            this.label25.Text = "Room No.";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(31, 32);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(98, 24);
+            this.label26.TabIndex = 28;
+            this.label26.Text = "First name";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.label2.Location = new System.Drawing.Point(402, 273);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(441, 51);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "There are no current";
+            // 
+            // InvoicesPanel
+            // 
+            this.InvoicesPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.InvoicesPanel.Controls.Add(this.label6);
+            this.InvoicesPanel.Controls.Add(this.label2);
+            this.InvoicesPanel.Location = new System.Drawing.Point(245, 92);
+            this.InvoicesPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.InvoicesPanel.Name = "InvoicesPanel";
+            this.InvoicesPanel.Size = new System.Drawing.Size(1248, 745);
+            this.InvoicesPanel.TabIndex = 22;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Arial", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.label6.Location = new System.Drawing.Point(419, 336);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(405, 51);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "invoices to display";
+            // 
+            // EmployeesPanel
+            // 
+            this.EmployeesPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
+            this.EmployeesPanel.Controls.Add(this.EmployeeDisplay);
+            this.EmployeesPanel.Controls.Add(this.EmployeeInputsPanel);
+            this.EmployeesPanel.Location = new System.Drawing.Point(245, 92);
+            this.EmployeesPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.EmployeesPanel.Name = "EmployeesPanel";
+            this.EmployeesPanel.Size = new System.Drawing.Size(1248, 745);
+            this.EmployeesPanel.TabIndex = 19;
+            // 
+            // EmployeeDisplay
+            // 
+            this.EmployeeDisplay.BackColor = System.Drawing.Color.White;
+            this.EmployeeDisplay.Controls.Add(this.EmployeesDGV);
+            this.EmployeeDisplay.Location = new System.Drawing.Point(28, 257);
+            this.EmployeeDisplay.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.EmployeeDisplay.Name = "EmployeeDisplay";
+            this.EmployeeDisplay.Size = new System.Drawing.Size(1193, 460);
+            this.EmployeeDisplay.TabIndex = 14;
+            // 
+            // EmployeesDGV
+            // 
+            dataGridViewCellStyle31.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.EmployeesDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle31;
+            this.EmployeesDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.EmployeesDGV.BackgroundColor = System.Drawing.Color.White;
+            this.EmployeesDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.EmployeesDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            dataGridViewCellStyle32.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle32.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.EmployeesDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle32;
+            this.EmployeesDGV.ColumnHeadersHeight = 40;
+            this.EmployeesDGV.Cursor = System.Windows.Forms.Cursors.Hand;
+            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle33.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle33.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle33.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle33.SelectionBackColor = System.Drawing.Color.PaleTurquoise;
+            dataGridViewCellStyle33.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.EmployeesDGV.DefaultCellStyle = dataGridViewCellStyle33;
+            this.EmployeesDGV.EnableHeadersVisualStyles = false;
+            this.EmployeesDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            this.EmployeesDGV.Location = new System.Drawing.Point(26, 22);
+            this.EmployeesDGV.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.EmployeesDGV.Name = "EmployeesDGV";
+            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle34.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle34.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle34.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle34.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle34.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle34.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.EmployeesDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle34;
+            this.EmployeesDGV.RowHeadersWidth = 51;
+            dataGridViewCellStyle35.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.EmployeesDGV.RowsDefaultCellStyle = dataGridViewCellStyle35;
+            this.EmployeesDGV.RowTemplate.Height = 26;
+            this.EmployeesDGV.Size = new System.Drawing.Size(1143, 411);
+            this.EmployeesDGV.TabIndex = 7;
+            this.EmployeesDGV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.EmployeesDGV_CellClick);
+            // 
+            // EmployeeInputsPanel
+            // 
+            this.EmployeeInputsPanel.BackColor = System.Drawing.Color.White;
+            this.EmployeeInputsPanel.Controls.Add(this.EmployeesAddBtn);
+            this.EmployeeInputsPanel.Controls.Add(this.EmployeesDeleteBtn);
+            this.EmployeeInputsPanel.Controls.Add(this.EmployeesSearchBtn);
+            this.EmployeeInputsPanel.Controls.Add(this.EmployeeJobTB);
+            this.EmployeeInputsPanel.Controls.Add(this.EmployeePhoneTB);
+            this.EmployeeInputsPanel.Controls.Add(this.textBox4);
+            this.EmployeeInputsPanel.Controls.Add(this.EmployeeAddressTB);
+            this.EmployeeInputsPanel.Controls.Add(this.EmployeeLNameTB);
+            this.EmployeeInputsPanel.Controls.Add(this.EmployeeFNameTB);
+            this.EmployeeInputsPanel.Controls.Add(this.label11);
+            this.EmployeeInputsPanel.Controls.Add(this.EmployeeEmailTB);
+            this.EmployeeInputsPanel.Controls.Add(this.label14);
+            this.EmployeeInputsPanel.Controls.Add(this.label15);
+            this.EmployeeInputsPanel.Controls.Add(this.label16);
+            this.EmployeeInputsPanel.Controls.Add(this.label17);
+            this.EmployeeInputsPanel.Location = new System.Drawing.Point(28, 27);
+            this.EmployeeInputsPanel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.EmployeeInputsPanel.Name = "EmployeeInputsPanel";
+            this.EmployeeInputsPanel.Size = new System.Drawing.Size(1193, 197);
+            this.EmployeeInputsPanel.TabIndex = 13;
+            // 
+            // EmployeesAddBtn
+            // 
+            this.EmployeesAddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            this.EmployeesAddBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.EmployeesAddBtn.FlatAppearance.BorderSize = 0;
+            this.EmployeesAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.EmployeesAddBtn.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmployeesAddBtn.ForeColor = System.Drawing.Color.White;
+            this.EmployeesAddBtn.Location = new System.Drawing.Point(1028, 30);
+            this.EmployeesAddBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.EmployeesAddBtn.Name = "EmployeesAddBtn";
+            this.EmployeesAddBtn.Size = new System.Drawing.Size(127, 37);
+            this.EmployeesAddBtn.TabIndex = 15;
+            this.EmployeesAddBtn.Text = "Add / Edit";
+            this.EmployeesAddBtn.UseVisualStyleBackColor = false;
+            this.EmployeesAddBtn.Click += new System.EventHandler(this.EmployeesAddBtn_Click);
+            // 
+            // EmployeesDeleteBtn
+            // 
+            this.EmployeesDeleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            this.EmployeesDeleteBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.EmployeesDeleteBtn.FlatAppearance.BorderSize = 0;
+            this.EmployeesDeleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.EmployeesDeleteBtn.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmployeesDeleteBtn.ForeColor = System.Drawing.Color.White;
+            this.EmployeesDeleteBtn.Location = new System.Drawing.Point(1028, 81);
+            this.EmployeesDeleteBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.EmployeesDeleteBtn.Name = "EmployeesDeleteBtn";
+            this.EmployeesDeleteBtn.Size = new System.Drawing.Size(127, 37);
+            this.EmployeesDeleteBtn.TabIndex = 16;
+            this.EmployeesDeleteBtn.Text = "Delete";
+            this.EmployeesDeleteBtn.UseVisualStyleBackColor = false;
+            this.EmployeesDeleteBtn.Click += new System.EventHandler(this.EmployeesDeleteBtn_Click);
+            // 
+            // EmployeesSearchBtn
+            // 
+            this.EmployeesSearchBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(173)))));
+            this.EmployeesSearchBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.EmployeesSearchBtn.FlatAppearance.BorderSize = 0;
+            this.EmployeesSearchBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.EmployeesSearchBtn.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmployeesSearchBtn.ForeColor = System.Drawing.Color.White;
+            this.EmployeesSearchBtn.Location = new System.Drawing.Point(1028, 133);
+            this.EmployeesSearchBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.EmployeesSearchBtn.Name = "EmployeesSearchBtn";
+            this.EmployeesSearchBtn.Size = new System.Drawing.Size(127, 37);
+            this.EmployeesSearchBtn.TabIndex = 17;
+            this.EmployeesSearchBtn.Text = "Search";
+            this.EmployeesSearchBtn.UseVisualStyleBackColor = false;
+            this.EmployeesSearchBtn.Click += new System.EventHandler(this.EmployeesSearchBtn_Click);
+            // 
+            // EmployeeJobTB
+            // 
+            this.EmployeeJobTB.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmployeeJobTB.Location = new System.Drawing.Point(624, 134);
+            this.EmployeeJobTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.EmployeeJobTB.Name = "EmployeeJobTB";
+            this.EmployeeJobTB.Size = new System.Drawing.Size(279, 32);
+            this.EmployeeJobTB.TabIndex = 14;
+            // 
+            // EmployeePhoneTB
+            // 
+            this.EmployeePhoneTB.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmployeePhoneTB.Location = new System.Drawing.Point(153, 134);
+            this.EmployeePhoneTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.EmployeePhoneTB.Name = "EmployeePhoneTB";
+            this.EmployeePhoneTB.Size = new System.Drawing.Size(279, 32);
+            this.EmployeePhoneTB.TabIndex = 14;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(624, 81);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(279, 32);
+            this.textBox4.TabIndex = 14;
+            // 
+            // EmployeeAddressTB
+            // 
+            this.EmployeeAddressTB.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmployeeAddressTB.Location = new System.Drawing.Point(153, 81);
+            this.EmployeeAddressTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.EmployeeAddressTB.Name = "EmployeeAddressTB";
+            this.EmployeeAddressTB.Size = new System.Drawing.Size(279, 32);
+            this.EmployeeAddressTB.TabIndex = 14;
+            // 
+            // EmployeeLNameTB
+            // 
+            this.EmployeeLNameTB.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmployeeLNameTB.Location = new System.Drawing.Point(624, 28);
+            this.EmployeeLNameTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.EmployeeLNameTB.Name = "EmployeeLNameTB";
+            this.EmployeeLNameTB.Size = new System.Drawing.Size(279, 32);
+            this.EmployeeLNameTB.TabIndex = 14;
+            // 
+            // EmployeeFNameTB
+            // 
+            this.EmployeeFNameTB.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmployeeFNameTB.Location = new System.Drawing.Point(153, 28);
+            this.EmployeeFNameTB.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.EmployeeFNameTB.Name = "EmployeeFNameTB";
+            this.EmployeeFNameTB.Size = new System.Drawing.Size(279, 32);
+            this.EmployeeFNameTB.TabIndex = 14;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(23, 33);
+            this.label11.Location = new System.Drawing.Point(494, 139);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(93, 24);
+            this.label11.Size = new System.Drawing.Size(80, 24);
             this.label11.TabIndex = 2;
-            this.label11.Text = "Room No.";
+            this.label11.Text = "Job Title";
+            // 
+            // EmployeeEmailTB
+            // 
+            this.EmployeeEmailTB.AutoSize = true;
+            this.EmployeeEmailTB.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmployeeEmailTB.Location = new System.Drawing.Point(495, 86);
+            this.EmployeeEmailTB.Name = "EmployeeEmailTB";
+            this.EmployeeEmailTB.Size = new System.Drawing.Size(63, 24);
+            this.EmployeeEmailTB.TabIndex = 2;
+            this.EmployeeEmailTB.Text = "E-Mail";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(23, 139);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(63, 24);
+            this.label14.TabIndex = 2;
+            this.label14.Text = "Phone";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(23, 86);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(77, 24);
+            this.label15.TabIndex = 2;
+            this.label15.Text = "Address";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(495, 33);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(97, 24);
+            this.label16.TabIndex = 2;
+            this.label16.Text = "Last Name";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(23, 33);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(100, 24);
+            this.label17.TabIndex = 2;
+            this.label17.Text = "First Name";
             // 
             // Form1
             // 
@@ -1794,11 +2287,13 @@
             this.Controls.Add(this.TitleLabel);
             this.Controls.Add(this.LogoPanel);
             this.Controls.Add(this.SideBarPanel);
-            this.Controls.Add(this.ReservationsPanel);
-            this.Controls.Add(this.RoomsPanel);
+            this.Controls.Add(this.EmployeesPanel);
             this.Controls.Add(this.GuestsPanel);
+            this.Controls.Add(this.ReservationsPanel);
             this.Controls.Add(this.MiscPanel);
+            this.Controls.Add(this.InvoicesPanel);
             this.Controls.Add(this.HomePanel);
+            this.Controls.Add(this.RoomsPanel);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximumSize = new System.Drawing.Size(1493, 837);
             this.MinimumSize = new System.Drawing.Size(1493, 837);
@@ -1820,11 +2315,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.RoomStatusDGV)).EndInit();
             this.RoomStatusInputsPanel.ResumeLayout(false);
             this.RoomStatusInputsPanel.PerformLayout();
-            this.ReservationStatusTab.ResumeLayout(false);
-            this.ReservationStatusDisplayPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.ReservationStatusDGV)).EndInit();
-            this.ReservationStatusInputsPanel.ResumeLayout(false);
-            this.ReservationStatusInputsPanel.PerformLayout();
             this.MiscPanel.ResumeLayout(false);
             this.RoomsPanel.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
@@ -1838,15 +2328,33 @@
             this.GuestsDisplayPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.GuestsDGV)).EndInit();
             this.GuestsPanel.ResumeLayout(false);
+            this.GuestBookingPanal.ResumeLayout(false);
+            this.GuestBookingPanal.PerformLayout();
             this.HomePanel.ResumeLayout(false);
             this.HomePanel.PerformLayout();
             this.ReservationsPanel.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            this.ReservationsTabControl.ResumeLayout(false);
+            this.CheckTabPanel.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.CheckDisplayPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.CheckDGV)).EndInit();
+            this.CheckInputsPanel.ResumeLayout(false);
+            this.CheckInputsPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.AdultsNUD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChildernNUD)).EndInit();
+            this.ReservationsTabPanel.ResumeLayout(false);
+            this.ReservationsDisplayPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ReservationsDGV)).EndInit();
+            this.ReservationsInputPanel.ResumeLayout(false);
+            this.ReservationsInputPanel.PerformLayout();
+            this.InvoicesPanel.ResumeLayout(false);
+            this.InvoicesPanel.PerformLayout();
+            this.EmployeesPanel.ResumeLayout(false);
+            this.EmployeeDisplay.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.EmployeesDGV)).EndInit();
+            this.EmployeeInputsPanel.ResumeLayout(false);
+            this.EmployeeInputsPanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1886,23 +2394,12 @@
         private System.Windows.Forms.TextBox RoomStatusNameTB;
         private System.Windows.Forms.Label LabelRoomStatusDescription;
         private System.Windows.Forms.Label LabelRoomStatusName;
-        private MetroFramework.Controls.MetroTabPage ReservationStatusTab;
-        private System.Windows.Forms.Panel ReservationStatusDisplayPanel;
-        private System.Windows.Forms.DataGridView ReservationStatusDGV;
-        private System.Windows.Forms.Panel ReservationStatusInputsPanel;
-        private System.Windows.Forms.Button ReservationStatusAddBtn;
-        private System.Windows.Forms.Button ReservationStatusDeleteBtn;
-        private System.Windows.Forms.TextBox ReservationStatusDescriptionTB;
-        private System.Windows.Forms.TextBox ReservationStatusNameTB;
-        private System.Windows.Forms.Label LabelReservationStatusDescription;
-        private System.Windows.Forms.Label LabelReservationStatusName;
         private System.Windows.Forms.Panel MiscPanel;
         private System.Windows.Forms.Panel RoomsPanel;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.DataGridView RoomsDGV;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.ComboBox RoomStatusCB;
-        private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox RoomTypeCB;
         private System.Windows.Forms.NumericUpDown RoomNoNUD;
         private System.Windows.Forms.NumericUpDown FloorNoNUD;
@@ -1910,7 +2407,6 @@
         private System.Windows.Forms.Button RoomsDeleteBtn;
         private System.Windows.Forms.Button RoomsSearchBtn;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
@@ -1941,22 +2437,68 @@
         private System.Windows.Forms.Button InterfaceInvoiceBtn;
         private System.Windows.Forms.Button InterfaceEmployeesBtn;
         private System.Windows.Forms.Panel ReservationsPanel;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label6;
+        private MetroFramework.Controls.MetroTabControl ReservationsTabControl;
+        private MetroFramework.Controls.MetroTabPage CheckTabPanel;
+        private MetroFramework.Controls.MetroTabPage ReservationsTabPanel;
+        private System.Windows.Forms.Panel CheckDisplayPanel;
+        private System.Windows.Forms.DataGridView CheckDGV;
+        private System.Windows.Forms.Panel CheckInputsPanel;
+        private System.Windows.Forms.DateTimePicker CheckOutDTP;
+        private System.Windows.Forms.DateTimePicker CheckInDTP;
+        private System.Windows.Forms.NumericUpDown AdultsNUD;
+        private System.Windows.Forms.NumericUpDown ChildernNUD;
+        private System.Windows.Forms.Button ReservationCheckBtn;
+        private System.Windows.Forms.Label CheckChildrenLabel;
+        private System.Windows.Forms.Label CheckCheckOutLabel;
+        private System.Windows.Forms.Label CheckAdultsLabel;
+        private System.Windows.Forms.Label CheckCheckInLabel;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TextBox RoomNoDisplayOnlyTB;
+        private System.Windows.Forms.Button BookBtn;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Panel GuestBookingPanal;
+        private System.Windows.Forms.Button BookingConfirmBtn;
+        private System.Windows.Forms.TextBox bookingLNameTB;
+        private System.Windows.Forms.TextBox bookingFNameTB;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Panel ReservationsDisplayPanel;
+        private System.Windows.Forms.DataGridView ReservationsDGV;
+        private System.Windows.Forms.Panel ReservationsInputPanel;
+        private System.Windows.Forms.Button ReservationDeleteBtn;
+        private System.Windows.Forms.Button ReservationSearchBtn;
+        private System.Windows.Forms.TextBox ReservationLNameTB;
+        private System.Windows.Forms.TextBox ReservationRoomNoTB;
+        private System.Windows.Forms.TextBox ReservationFNameTB;
+        private System.Windows.Forms.DateTimePicker ReservationCheckOutDTP;
+        private System.Windows.Forms.DateTimePicker ReservationCheckInDTP;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel InvoicesPanel;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Panel EmployeesPanel;
+        private System.Windows.Forms.Panel EmployeeDisplay;
+        private System.Windows.Forms.DataGridView EmployeesDGV;
+        private System.Windows.Forms.Panel EmployeeInputsPanel;
+        private System.Windows.Forms.Button EmployeesAddBtn;
+        private System.Windows.Forms.Button EmployeesDeleteBtn;
+        private System.Windows.Forms.Button EmployeesSearchBtn;
+        private System.Windows.Forms.TextBox EmployeePhoneTB;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox EmployeeAddressTB;
+        private System.Windows.Forms.TextBox EmployeeLNameTB;
+        private System.Windows.Forms.TextBox EmployeeFNameTB;
+        private System.Windows.Forms.Label EmployeeEmailTB;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.TextBox EmployeeJobTB;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
     }
 }
 

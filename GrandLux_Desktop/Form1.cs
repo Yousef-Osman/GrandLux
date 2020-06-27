@@ -1,16 +1,5 @@
-﻿using MetroFramework;
-using System;
+﻿using System;
 using GrandLux_Desktop.Models;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Data.Entity;
-using System.Data.Entity.Migrations;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace GrandLux_Desktop
 {
@@ -47,7 +36,9 @@ namespace GrandLux_Desktop
             GuestsPanel.Visible = false;
             ReservationsPanel.Visible = false;
             RoomsPanel.Visible = false;
+            EmployeesPanel.Visible = false;
             MiscPanel.Visible = false;
+            InvoicesPanel.Visible = false;
         }
 
         private void LogoPanel_Click(object sender, EventArgs e)
@@ -62,17 +53,11 @@ namespace GrandLux_Desktop
             HomePanel.Visible = true;
         }
 
-        private void ReservationsBtn_Click(object sender, EventArgs e)
+        private void InvoiceBtn_Click(object sender, EventArgs e)
         {
-            TitleLabel.Text = "Reservations";
+            TitleLabel.Text = "Invoices";
             HideAllPanels();
-            ReservationsPanel.Visible = true;
-            ShowReservationtData();
-        }
-
-        private void ShowReservationtData()
-        {
-
+            InvoicesPanel.Visible = true;
         }
     }
 }

@@ -16,13 +16,13 @@ namespace GrandLux_Desktop.Models
     {
         public int Id { get; set; }
         public int Guest_Id { get; set; }
-        public int Room_Number { get; set; }
-        public System.DateTime Reservation_Date { get; set; }
+        public int Room_Id { get; set; }
+        public Nullable<System.DateTime> Reservation_Date { get; set; }
         public System.DateTime Check_In { get; set; }
         public Nullable<System.DateTime> Check_Out { get; set; }
         public int Adults { get; set; }
         public Nullable<int> Children { get; set; }
-        public int Reservation_Status { get; set; }
+        public Nullable<int> Reservation_Status { get; set; }
     
         public virtual Guest Guest { get; set; }
         public virtual Reservation_Status Reservation_Status1 { get; set; }

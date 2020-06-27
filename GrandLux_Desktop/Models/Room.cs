@@ -20,10 +20,13 @@ namespace GrandLux_Desktop.Models
             this.Reservations = new HashSet<Reservation>();
         }
     
+        public int Id { get; set; }
         public int Room_Number { get; set; }
         public int Floor_Number { get; set; }
         public int Type_Id { get; set; }
         public int Status_Id { get; set; }
+        public Nullable<System.DateTime> Check_In { get; set; }
+        public Nullable<System.DateTime> Check_Out { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Reservation> Reservations { get; set; }
