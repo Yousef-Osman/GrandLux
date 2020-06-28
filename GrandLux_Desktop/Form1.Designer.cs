@@ -2294,6 +2294,7 @@
             this.Controls.Add(this.InvoicesPanel);
             this.Controls.Add(this.HomePanel);
             this.Controls.Add(this.RoomsPanel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximumSize = new System.Drawing.Size(1493, 837);
             this.MinimumSize = new System.Drawing.Size(1493, 837);
