@@ -1,8 +1,17 @@
-﻿@{
+﻿@model IEnumerable<GrandLux.Models.Employees>
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div>
+    @foreach (var employee in Model)
+    {
+        <h5>@employee.FirstName</h5>
+        <h5>@employee.LastName</h5>
+    }
 </div>

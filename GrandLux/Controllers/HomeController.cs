@@ -12,6 +12,8 @@ namespace GrandLux.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        GrandLuxDBContext _context = new GrandLuxDBContext();
+        //List<Employees> employees;
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -20,7 +22,8 @@ namespace GrandLux.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var model = _context.Employees.ToList();
+            return View(model);
         }
 
         public IActionResult Privacy()
