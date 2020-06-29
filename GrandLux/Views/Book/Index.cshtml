@@ -109,8 +109,6 @@
     function sendReservation(roomId) {
         $('#book-room-btn').click(function () {
             data.roomId = roomId
-
-            console.log(data);
             $.ajax({
                 url: '/Book/AddReservation',
                 type: 'POST',
