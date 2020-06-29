@@ -1,0 +1,59 @@
+﻿@model DataViewModel
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@if (Model.rooms.Count > 0)
+{
+    
+        <div class="site-wrap">
+            <div class="site-section bg-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+                            <h2 class="mb-5">Available Rooms</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        @foreach (var room in Model.rooms)
+                        {
+                        <div class="col-md-6 col-lg-4 mb-5">
+                            <div class="hotel-room text-center">
+                                <a href="#" class="d-block mb-0 thumbnail"><img src="~/images/rooms/room1.jpg" alt="Image" class="img-fluid"></a>
+                                <div class="hotel-room-body">
+                                    <h3 class="heading mb-0">@room.Type.Name</h3>
+                                    <p class="heading mb-0">No. of beds: @room.Type.NoOfBeds</p>
+                                    <strong class="price">$00.00 / per night</strong>
+                                    <div class="col-12 d-flex justify-content-center mt-2">
+                                        @if (SignInManager.IsSignedIn(User))
+                                        {
+                                            <input type="button" class="btn btn-warning py-2 px-5" value="Book Now" data-toggle="modal" data-target="#book-Modal" onclick="sendReservation('@room.Id')" />
+                                        }
+                                        else
+                                        {
+                                            <a class="btn btn-warning py-2 px-5" asp-area="Identity" asp-page="/Account/Login">Book Now</a>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+}
+else
+{
+    <div class="site-wrap">
+        <div class="site-section bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+                        <h2 class="mb-5">Sorry, there are no available rooms right now</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

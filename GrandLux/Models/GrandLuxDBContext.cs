@@ -23,14 +23,6 @@ namespace GrandLux.Models
         public virtual DbSet<RoomType> RoomType { get; set; }
         public virtual DbSet<Rooms> Rooms { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer("Server=.;Database=GrandLuxDB;Trusted_Connection=True;");
-            }
-        }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Employees>(entity =>
