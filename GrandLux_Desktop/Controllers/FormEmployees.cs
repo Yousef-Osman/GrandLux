@@ -14,24 +14,32 @@ namespace GrandLux_Desktop
             TitleLabel.Text = "Employees";
             HideAllPanels();
             EmployeesPanel.Visible = true;
+            ShowEmployeeData();
         }
 
         private void EmployeesDGV_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (EmployeesDGV.CurrentRow.Index != -1)
             {
-                employee.Id = Convert.ToInt32(EmployeesDGV.CurrentRow.Cells["Id"].Value);
-                using (GrandLuxEntities db = new GrandLuxEntities())
+                try
                 {
-                    employee = db.Employees.Where(a => a.Id == employee.Id).FirstOrDefault();
-                }
+                    employee.Id = Convert.ToInt32(EmployeesDGV.CurrentRow.Cells["Id"].Value);
+                    using (GrandLuxEntities context = new GrandLuxEntities())
+                    {
+                        employee = context.Employees.Where(a => a.Id == employee.Id).FirstOrDefault();
+                    }
 
-                EmployeeFNameTB.Text = bookingFNameTB.Text = employee.First_Name;
-                EmployeeLNameTB.Text = bookingLNameTB.Text = employee.Last_Name;
-                EmployeeAddressTB.Text = employee.Address;
-                EmployeeEmailTB.Text = employee.E_Mail;
-                EmployeePhoneTB.Text = employee.Phone;
-                EmployeeJobTB.Text = employee.Job_Title;
+                    EmployeeFNameTB.Text = bookingFNameTB.Text = employee.First_Name;
+                    EmployeeLNameTB.Text = bookingLNameTB.Text = employee.Last_Name;
+                    EmployeeAddressTB.Text = employee.Address;
+                    EmployeeEmailTB.Text = employee.E_Mail;
+                    EmployeePhoneTB.Text = employee.Phone;
+                    EmployeeJobTB.Text = employee.Job_Title;
+                }
+                catch (Exception)
+                {
+                    MetroMessageBox.Show(this, "Something went Wrong, try again", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 
@@ -58,22 +66,29 @@ namespace GrandLux_Desktop
         {
             if ((!string.IsNullOrWhiteSpace(EmployeeFNameTB.Text) && !string.IsNullOrWhiteSpace(EmployeeLNameTB.Text)) || !string.IsNullOrWhiteSpace(EmployeePhoneTB.Text) || !string.IsNullOrWhiteSpace(EmployeeEmailTB.Text))
             {
-                using (GrandLuxEntities db = new GrandLuxEntities())
+                try
                 {
-                    EmployeesDGV.DataSource = db.Employees.Where(a => (a.First_Name == EmployeeFNameTB.Text &&
-                                                                 a.Last_Name == EmployeeLNameTB.Text) ||
-                                                                 a.E_Mail == EmployeeEmailTB.Text ||
-                                                                 a.Phone == EmployeePhoneTB.Text ||
-                                                                 a.Job_Title == EmployeeJobTB.Text)
-                                                    .Select(a => new {
-                                                        a.Id,
-                                                        a.First_Name,
-                                                        a.Last_Name,
-                                                        a.Address,
-                                                        a.E_Mail,
-                                                        a.Phone,
-                                                        a.Job_Title
-                                                    }).ToList();
+                    using (GrandLuxEntities context = new GrandLuxEntities())
+                    {
+                        EmployeesDGV.DataSource = context.Employees.Where(a => (a.First_Name == EmployeeFNameTB.Text &&
+                                                                     a.Last_Name == EmployeeLNameTB.Text) ||
+                                                                     a.E_Mail == EmployeeEmailTB.Text ||
+                                                                     a.Phone == EmployeePhoneTB.Text ||
+                                                                     a.Job_Title == EmployeeJobTB.Text)
+                                                        .Select(a => new {
+                                                            a.Id,
+                                                            a.First_Name,
+                                                            a.Last_Name,
+                                                            a.Address,
+                                                            a.E_Mail,
+                                                            a.Phone,
+                                                            a.Job_Title
+                                                        }).ToList();
+                    }
+                }
+                catch (Exception)
+                {
+                    MetroMessageBox.Show(this, "Something went Wrong, try again", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
                 ClearEmployeeInputs();
@@ -86,9 +101,17 @@ namespace GrandLux_Desktop
 
         public void ShowEmployeeData()
         {
-            using (GrandLuxEntities db = new GrandLuxEntities())
+            try
             {
-                EmployeesDGV.DataSource = db.Employees.Select(a => new { a.Id, a.First_Name, a.Last_Name, a.Address, a.E_Mail, a.Phone, a.Job_Title }).ToList();
+                using (GrandLuxEntities context = new GrandLuxEntities())
+                {
+                    EmployeesDGV.DataSource = context.Employees.Select(a => new { a.Id, a.First_Name, a.Last_Name, a.Address, a.E_Mail, a.Phone, a.Job_Title }).ToList();
+
+                }
+            }
+            catch (Exception)
+            {
+                MetroMessageBox.Show(this, "Something went Wrong, try again", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             ClearEmployeeInputs();
@@ -97,7 +120,7 @@ namespace GrandLux_Desktop
         private void ClearEmployeeInputs()
         {
             EmployeeFNameTB.Text = EmployeeLNameTB.Text = EmployeeAddressTB.Text = "";
-            EmployeeEmailTB.Text = EmployeePhoneTB.Text = "";
+            EmployeeEmailTB.Text = EmployeePhoneTB.Text = EmployeeJobTB.Text = "";
             employee.Id = 0;
         }
     }

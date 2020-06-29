@@ -21,22 +21,30 @@ namespace GrandLux_Desktop
 
         public void ShowRoomData()
         {
-            using (GrandLuxEntities db = new GrandLuxEntities())
+            try
             {
-                RoomsDGV.DataSource = db.Rooms.Select(r => new { 
-                                                                 r.Id,
-                                                                 r.Room_Number,
-                                                                 r.Floor_Number, 
-                                                                 Room_Type = r.Room_Type.Name, 
-                                                                 Room_Status = r.Room_Status.Name }).ToList();
+                using (GrandLuxEntities context = new GrandLuxEntities())
+                {
+                    RoomsDGV.DataSource = context.Rooms.Select(r => new {
+                        r.Id,
+                        r.Room_Number,
+                        r.Floor_Number,
+                        Room_Type = r.Room_Type.Name,
+                        Room_Status = r.Room_Status.Name
+                    }).ToList();
 
-                RoomTypeCB.DataSource = db.Room_Type.ToList();
-                RoomTypeCB.DisplayMember = "Name";
-                RoomTypeCB.ValueMember = "Id";
+                    RoomTypeCB.DataSource = context.Room_Type.ToList();
+                    RoomTypeCB.DisplayMember = "Name";
+                    RoomTypeCB.ValueMember = "Id";
 
-                RoomStatusCB.DataSource = db.Room_Status.ToList();
-                RoomStatusCB.DisplayMember = "Name";
-                RoomStatusCB.ValueMember = "Id";
+                    RoomStatusCB.DataSource = context.Room_Status.ToList();
+                    RoomStatusCB.DisplayMember = "Name";
+                    RoomStatusCB.ValueMember = "Id";
+                }
+            }
+            catch (Exception)
+            {
+                MetroMessageBox.Show(this, "Something went Wrong, try again", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             ResetRoomInputs();
@@ -47,14 +55,22 @@ namespace GrandLux_Desktop
             if (RoomsDGV.CurrentRow.Index != -1)
             {
                 room.Id = Convert.ToInt32(RoomsDGV.CurrentRow.Cells["Id"].Value);
-                using (GrandLuxEntities db = new GrandLuxEntities())
+
+                try
                 {
-                    room = db.Rooms.Where(r => r.Id == room.Id).FirstOrDefault();
+                    using (GrandLuxEntities context = new GrandLuxEntities())
+                    {
+                        room = context.Rooms.Where(r => r.Id == room.Id).FirstOrDefault();
+                    }
 
                     RoomNoNUD.Value = room.Room_Number;
                     FloorNoNUD.Value = room.Floor_Number;
                     RoomTypeCB.SelectedValue = room.Type_Id;
                     RoomStatusCB.SelectedValue = room.Status_Id;
+                }
+                catch (Exception)
+                {
+                    MetroMessageBox.Show(this, "Something went Wrong, try again", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -91,18 +107,25 @@ namespace GrandLux_Desktop
                 var roomTypeId = Convert.ToInt32(RoomTypeCB.SelectedValue);
                 var roomStatusId = Convert.ToInt32(RoomStatusCB.SelectedValue);
 
-                using (GrandLuxEntities db = new GrandLuxEntities())
+                try
                 {
-                    RoomsDGV.DataSource = db.Rooms.Where(r => r.Room_Number == RoomNoNUD.Value || 
-                                                 r.Floor_Number == FloorNoNUD.Value || 
-                                                 r.Type_Id == roomTypeId ||
-                                                 r.Status_Id == roomStatusId)
-                                     .Select(r => new {
-                                         r.Room_Number,
-                                         r.Floor_Number,
-                                         Room_Type = r.Room_Type.Name,
-                                         Room_Status = r.Room_Status.Name
-                                     }).ToList();
+                    using (GrandLuxEntities context = new GrandLuxEntities())
+                    {
+                        RoomsDGV.DataSource = context.Rooms.Where(r => r.Room_Number == RoomNoNUD.Value ||
+                                                     r.Floor_Number == FloorNoNUD.Value ||
+                                                     r.Type_Id == roomTypeId ||
+                                                     r.Status_Id == roomStatusId)
+                                         .Select(r => new {
+                                             r.Room_Number,
+                                             r.Floor_Number,
+                                             Room_Type = r.Room_Type.Name,
+                                             Room_Status = r.Room_Status.Name
+                                         }).ToList();
+                    }
+                }
+                catch (Exception)
+                {
+                    MetroMessageBox.Show(this, "Something went Wrong, try again", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
                 ResetRoomInputs();

@@ -22,10 +22,10 @@ namespace GrandLux_Desktop
                 {
                     string state = (id == 0) ? "Added" : "Modified";    //To print a message to the user of wether an item is added or modified
 
-                    using (GrandLuxEntities db = new GrandLuxEntities())
+                    using (GrandLuxEntities context = new GrandLuxEntities())
                     {
-                        db.Set<T>().AddOrUpdate(entity);
-                        db.SaveChanges();
+                        context.Set<T>().AddOrUpdate(entity);
+                        context.SaveChanges();
                     }
 
                     MetroMessageBox.Show(this, $"A record has been {state}", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -52,10 +52,10 @@ namespace GrandLux_Desktop
             {
                 try
                 {
-                    using (GrandLuxEntities db = new GrandLuxEntities())
+                    using (GrandLuxEntities context = new GrandLuxEntities())
                     {
-                        db.Entry(entity).State = EntityState.Deleted;
-                        db.SaveChanges();
+                        context.Entry(entity).State = EntityState.Deleted;
+                        context.SaveChanges();
                     }
 
                     MetroMessageBox.Show(this, $"A record has been removed", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);

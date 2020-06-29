@@ -3,6 +3,7 @@ using GrandLux_Desktop.Models;
 using System.Data;
 using System.Linq;
 using System.Windows.Forms;
+using MetroFramework;
 
 namespace GrandLux_Desktop
 {
@@ -28,15 +29,22 @@ namespace GrandLux_Desktop
 
         private void ShowMiscData()
         {
-            using (GrandLuxEntities db = new GrandLuxEntities())
+            try
             {
-                RoomTypeDGV.DataSource = db.Room_Type.Select(r => new { Type_Id = r.Id, Type_Name = r.Name, No_Of_Beds = r.No_of_Beds, Maximum_Capacity = r.Max_Capacity }).ToList();
-                RoomStatusDGV.DataSource = db.Room_Status.Select(r => new { Status_Id = r.Id, Status_Name = r.Name, r.Description }).ToList();
+                using (GrandLuxEntities context = new GrandLuxEntities())
+                {
+                    RoomTypeDGV.DataSource = context.Room_Type.Select(r => new { Type_Id = r.Id, Type_Name = r.Name, No_Of_Beds = r.No_of_Beds, Maximum_Capacity = r.Max_Capacity }).ToList();
+                    RoomStatusDGV.DataSource = context.Room_Status.Select(r => new { Status_Id = r.Id, Status_Name = r.Name, r.Description }).ToList();
+                }
+                RoomTypeNameTB.Text = "";
+                BedsNUD.Value = MaxCapacityNUD.Value = 0;
+                RoomStatusNameTB.Text = RoomStatusDescriptionTB.Text = "";
+                roomType.Id = roomStatus.Id = 0;
             }
-            RoomTypeNameTB.Text = "";
-            BedsNUD.Value = MaxCapacityNUD.Value = 0;
-            RoomStatusNameTB.Text = RoomStatusDescriptionTB.Text = "";
-            roomType.Id = roomStatus.Id = 0;
+            catch (Exception)
+            {
+                MetroMessageBox.Show(this, "Something went Wrong, try again", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void ClearTapsInputs_Click(object sender, EventArgs e)
@@ -51,13 +59,21 @@ namespace GrandLux_Desktop
             if (RoomTypeDGV.CurrentRow.Index != -1)
             {
                 roomType.Id = Convert.ToInt32(RoomTypeDGV.CurrentRow.Cells["Type_Id"].Value);
-                using (GrandLuxEntities db = new GrandLuxEntities())
+
+                try
                 {
-                    roomType = db.Room_Type.Where(t => t.Id == roomType.Id).FirstOrDefault();
+                    using (GrandLuxEntities context = new GrandLuxEntities())
+                    {
+                        roomType = context.Room_Type.Where(t => t.Id == roomType.Id).FirstOrDefault();
+                    }
 
                     RoomTypeNameTB.Text = roomType.Name;
                     BedsNUD.Value = roomType.No_of_Beds;
                     MaxCapacityNUD.Value = roomType.Max_Capacity;
+                }
+                catch (Exception)
+                {
+                    MetroMessageBox.Show(this, "Something went Wrong, try again", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -83,12 +99,20 @@ namespace GrandLux_Desktop
             if (RoomStatusDGV.CurrentRow.Index != -1)
             {
                 roomStatus.Id = Convert.ToInt32(RoomStatusDGV.CurrentRow.Cells["Status_Id"].Value);
-                using (GrandLuxEntities db = new GrandLuxEntities())
+
+                try
                 {
-                    roomStatus = db.Room_Status.Where(s => s.Id == roomStatus.Id).FirstOrDefault();
+                    using (GrandLuxEntities context = new GrandLuxEntities())
+                    {
+                        roomStatus = context.Room_Status.Where(s => s.Id == roomStatus.Id).FirstOrDefault();
+                    }
 
                     RoomStatusNameTB.Text = roomStatus.Name;
                     RoomStatusDescriptionTB.Text = roomStatus.Description;
+                }
+                catch (Exception)
+                {
+                    MetroMessageBox.Show(this, "Something went Wrong, try again", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }

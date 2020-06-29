@@ -32,12 +32,19 @@ namespace GrandLux_Desktop
 
         public void ShowGuestData()
         {
-            using (GrandLuxEntities db = new GrandLuxEntities())
+            try
             {
-                GuestsDGV.DataSource = db.Guests.Select(g => new { g.Id, g.First_Name, g.Last_Name, g.Address, g.E_Mail, g.Phone }).ToList();
+                using (GrandLuxEntities context = new GrandLuxEntities())
+                {
+                    GuestsDGV.DataSource = context.Guests.Select(g => new { g.Id, g.First_Name, g.Last_Name, g.Address, g.E_Mail, g.Phone }).ToList();
+                }
+            }
+            catch (Exception)
+            {
+                MetroMessageBox.Show(this, "Something went Wrong, try again", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-                ClearGuestInputs();
+            ClearGuestInputs();
         }
 
         private void GuestsDGV_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -45,16 +52,24 @@ namespace GrandLux_Desktop
             if (GuestsDGV.CurrentRow.Index != -1)
             {
                 guest.Id = Convert.ToInt32(GuestsDGV.CurrentRow.Cells["Id"].Value);
-                using (GrandLuxEntities db = new GrandLuxEntities())
-                {
-                    guest = db.Guests.Where(g => g.Id == guest.Id).FirstOrDefault();
-                }
 
-                GuestFNameTB.Text = bookingFNameTB.Text = guest.First_Name;
-                GuestLNameTB.Text = bookingLNameTB.Text = guest.Last_Name;
-                GuestAddressTB.Text = guest.Address;
-                GuestEmailTB.Text = guest.E_Mail;
-                GuestPhoneTB.Text = guest.Phone;
+                try
+                {
+                    using (GrandLuxEntities context = new GrandLuxEntities())
+                    {
+                        guest = context.Guests.Where(g => g.Id == guest.Id).FirstOrDefault();
+                    }
+
+                    GuestFNameTB.Text = bookingFNameTB.Text = guest.First_Name;
+                    GuestLNameTB.Text = bookingLNameTB.Text = guest.Last_Name;
+                    GuestAddressTB.Text = guest.Address;
+                    GuestEmailTB.Text = guest.E_Mail;
+                    GuestPhoneTB.Text = guest.Phone;
+                }
+                catch (Exception)
+                {
+                    MetroMessageBox.Show(this, "Something went Wrong, try again", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
 
                 BookingConfirmBtn.Enabled = true;
             }
@@ -69,19 +84,28 @@ namespace GrandLux_Desktop
         {
             if ((!string.IsNullOrWhiteSpace(GuestFNameTB.Text) && !string.IsNullOrWhiteSpace(GuestLNameTB.Text)) || !string.IsNullOrWhiteSpace(GuestPhoneTB.Text) || !string.IsNullOrWhiteSpace(GuestEmailTB.Text))
             {
-                using (GrandLuxEntities db = new GrandLuxEntities())
+                try
                 {
-                    GuestsDGV.DataSource = db.Guests.Where(g => (g.First_Name == GuestFNameTB.Text &&
-                                                                 g.Last_Name == GuestLNameTB.Text) ||
-                                                                 g.E_Mail == GuestEmailTB.Text ||
-                                                                 g.Phone == GuestPhoneTB.Text)
-                                                    .Select(g => new { 
-                                                        g.Id, g.First_Name, 
-                                                        g.Last_Name, 
-                                                        g.Address, 
-                                                        g.E_Mail, 
-                                                        g.Phone 
-                                                    }).ToList();
+                    using (GrandLuxEntities context = new GrandLuxEntities())
+                    {
+                        GuestsDGV.DataSource = context.Guests.Where(g => (g.First_Name == GuestFNameTB.Text &&
+                                                                     g.Last_Name == GuestLNameTB.Text) ||
+                                                                     g.E_Mail == GuestEmailTB.Text ||
+                                                                     g.Phone == GuestPhoneTB.Text)
+                                                        .Select(g => new
+                                                        {
+                                                            g.Id,
+                                                            g.First_Name,
+                                                            g.Last_Name,
+                                                            g.Address,
+                                                            g.E_Mail,
+                                                            g.Phone
+                                                        }).ToList();
+                    }
+                }
+                catch (Exception)
+                {
+                    MetroMessageBox.Show(this, "Something went Wrong, try again", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
                 ClearGuestInputs();
